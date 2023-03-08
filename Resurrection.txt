@@ -1,0 +1,1996 @@
+--[[
+	-- M2S by Coolbob44, fixed by mustardfoot. --
+	Current Version: 0.4.1
+	
+	Model: Resurrection
+	You can use this script to generate your model!
+	
+	Objects Parsed: 172
+		Decal: 1
+		StringValue: 2
+		IntValue: 1
+		Model: 8
+		Part: 113
+		SpecialMesh: 42
+		CylinderMesh: 3
+		BlockMesh: 2
+		
+	Objects Skipped: 42
+		Script: 12
+		Sound: 30
+		
+	Total: 214
+	
+--]]
+	
+
+-- 1 - Resurrection
+obj1 = Instance.new("Model")
+obj1.Name = "Resurrection"
+obj1.Parent = Workspace
+
+-- 2 - Part
+obj2 = Instance.new("Part")
+obj2.CFrame = CFrame.new(Vector3.new(-244.225037, 271.321777, 178.424988)) * CFrame.Angles(-0, 0, -0)
+obj2.FormFactor = Enum.FormFactor.Custom
+obj2.TopSurface = Enum.SurfaceType.Smooth
+obj2.BottomSurface = Enum.SurfaceType.Smooth
+obj2.Size = Vector3.new(198.409912, 23.3299999, 191.390121)
+obj2.Anchored = true
+obj2.BrickColor = BrickColor.new("Dark stone grey")
+obj2.Friction = 0.30000001192093
+obj2.Shape = Enum.PartType.Block
+obj2.Parent = obj1
+
+-- 3 - Part
+obj3 = Instance.new("Part")
+obj3.CFrame = CFrame.new(Vector3.new(-244.225037, 283.005768, 178.424988)) * CFrame.Angles(-0, 0, -0)
+obj3.FormFactor = Enum.FormFactor.Custom
+obj3.CanCollide = false
+obj3.TopSurface = Enum.SurfaceType.Smooth
+obj3.Size = Vector3.new(198.409912, 0.200000003, 191.390121)
+obj3.Anchored = true
+obj3.BrickColor = BrickColor.new("Dark stone grey")
+obj3.Friction = 0.30000001192093
+obj3.Shape = Enum.PartType.Block
+obj3.Parent = obj1
+
+-- 4 - Mesh
+obj4 = Instance.new("CylinderMesh")
+obj4.Parent = obj3
+
+-- 5 - Decal
+obj5 = Instance.new("Decal")
+obj5.Face = Enum.NormalId.Top
+obj5.Texture = "http://www.roblox.com/asset/?id=15075788"
+obj5.Parent = obj3
+
+-- 6 - Part
+obj6 = Instance.new("Part")
+obj6.CFrame = CFrame.new(Vector3.new(-245.026062, 241.871033, 182.247986)) * CFrame.Angles(-0, 0, -0)
+obj6.FormFactor = Enum.FormFactor.Custom
+obj6.TopSurface = Enum.SurfaceType.Smooth
+obj6.BottomSurface = Enum.SurfaceType.Smooth
+obj6.Size = Vector3.new(146.369934, 35.5699959, 178.19014)
+obj6.Anchored = true
+obj6.BrickColor = BrickColor.new("Dark stone grey")
+obj6.Friction = 0.30000001192093
+obj6.Shape = Enum.PartType.Block
+obj6.Parent = obj1
+
+-- 7 - Part
+obj7 = Instance.new("Part")
+obj7.CFrame = CFrame.new(Vector3.new(-239.439026, 188.790482, 158.002991)) * CFrame.Angles(-0, 0, -0)
+obj7.FormFactor = Enum.FormFactor.Custom
+obj7.TopSurface = Enum.SurfaceType.Smooth
+obj7.BottomSurface = Enum.SurfaceType.Smooth
+obj7.Size = Vector3.new(91.9899139, 70.5899963, 99.8201294)
+obj7.Anchored = true
+obj7.BrickColor = BrickColor.new("Dark stone grey")
+obj7.Friction = 0.30000001192093
+obj7.Shape = Enum.PartType.Block
+obj7.Parent = obj1
+
+-- 8 - Part
+obj8 = Instance.new("Part")
+obj8.CFrame = CFrame.new(Vector3.new(-218.318054, 125.326675, 153.451996)) * CFrame.Angles(-0, 0, -0)
+obj8.FormFactor = Enum.FormFactor.Custom
+obj8.TopSurface = Enum.SurfaceType.Smooth
+obj8.BottomSurface = Enum.SurfaceType.Smooth
+obj8.Size = Vector3.new(27.5899181, 56.3399925, 43.5501404)
+obj8.Anchored = true
+obj8.BrickColor = BrickColor.new("Dark stone grey")
+obj8.Friction = 0.30000001192093
+obj8.Shape = Enum.PartType.Block
+obj8.Parent = obj1
+
+-- 9 - Part
+obj9 = Instance.new("Part")
+obj9.CFrame = CFrame.new(Vector3.new(-398.903992, 274.413788, 193.546021)) * CFrame.Angles(3.1413512229919, 1.5683794021606, -3.1413466930389)
+obj9.FormFactor = Enum.FormFactor.Custom
+obj9.TopSurface = Enum.SurfaceType.Smooth
+obj9.BottomSurface = Enum.SurfaceType.Smooth
+obj9.Size = Vector3.new(75.9899216, 15.0599995, 208.070114)
+obj9.Anchored = true
+obj9.BrickColor = BrickColor.new("Dark stone grey")
+obj9.Friction = 0.30000001192093
+obj9.Shape = Enum.PartType.Block
+obj9.Parent = obj1
+
+-- 10 - Part
+obj10 = Instance.new("Part")
+obj10.CFrame = CFrame.new(Vector3.new(-238.260071, 266.329742, 305.075012)) * CFrame.Angles(-0, 0, -0)
+obj10.FormFactor = Enum.FormFactor.Custom
+obj10.TopSurface = Enum.SurfaceType.Smooth
+obj10.BottomSurface = Enum.SurfaceType.Smooth
+obj10.Size = Vector3.new(93.1399231, 23.3299999, 208.070114)
+obj10.Anchored = true
+obj10.BrickColor = BrickColor.new("Dark stone grey")
+obj10.Friction = 0.30000001192093
+obj10.Shape = Enum.PartType.Block
+obj10.Parent = obj1
+
+-- 11 - Part
+obj11 = Instance.new("Part")
+obj11.CFrame = CFrame.new(Vector3.new(-249.035065, 269.042725, 415.585022)) * CFrame.Angles(-0.074947573244572, -0.1222058609128, -0.0091533232480288)
+obj11.FormFactor = Enum.FormFactor.Custom
+obj11.TopSurface = Enum.SurfaceType.Smooth
+obj11.BottomSurface = Enum.SurfaceType.Smooth
+obj11.Size = Vector3.new(75.9899216, 15.0599995, 208.070114)
+obj11.Anchored = true
+obj11.BrickColor = BrickColor.new("Dark stone grey")
+obj11.Friction = 0.30000001192093
+obj11.Shape = Enum.PartType.Block
+obj11.Parent = obj1
+
+-- 12 - Part
+obj12 = Instance.new("Part")
+obj12.CFrame = CFrame.new(Vector3.new(-255.865051, 263.278748, 572.255005)) * CFrame.Angles(-0, 0, -0)
+obj12.FormFactor = Enum.FormFactor.Custom
+obj12.TopSurface = Enum.SurfaceType.Smooth
+obj12.BottomSurface = Enum.SurfaceType.Smooth
+obj12.Size = Vector3.new(138.469955, 42.1100006, 147.430099)
+obj12.Anchored = true
+obj12.BrickColor = BrickColor.new("Dark stone grey")
+obj12.Friction = 0.30000001192093
+obj12.Shape = Enum.PartType.Block
+obj12.Parent = obj1
+
+-- 13 - Part
+obj13 = Instance.new("Part")
+obj13.CFrame = CFrame.new(Vector3.new(-255.422058, 284.432648, 572.804993)) * CFrame.Angles(-0, 0, -0)
+obj13.FormFactor = Enum.FormFactor.Custom
+obj13.TopSurface = Enum.SurfaceType.Smooth
+obj13.Size = Vector3.new(138.199936, 0.200000003, 147.580139)
+obj13.Anchored = true
+obj13.Friction = 0.30000001192093
+obj13.Shape = Enum.PartType.Block
+obj13.Parent = obj1
+
+-- 14 - Mesh
+obj14 = Instance.new("CylinderMesh")
+obj14.Parent = obj13
+
+-- 15 - Part
+obj15 = Instance.new("Part")
+obj15.CFrame = CFrame.new(Vector3.new(-261.645081, 232.350296, 574.610046)) * CFrame.Angles(-0, 0, -0)
+obj15.FormFactor = Enum.FormFactor.Custom
+obj15.TopSurface = Enum.SurfaceType.Smooth
+obj15.BottomSurface = Enum.SurfaceType.Smooth
+obj15.Size = Vector3.new(114.109955, 42.1100006, 132.900101)
+obj15.Anchored = true
+obj15.BrickColor = BrickColor.new("Dark stone grey")
+obj15.Friction = 0.30000001192093
+obj15.Shape = Enum.PartType.Block
+obj15.Parent = obj1
+
+-- 16 - Part
+obj16 = Instance.new("Part")
+obj16.CFrame = CFrame.new(Vector3.new(-264.070007, 184.718491, 579.765015)) * CFrame.Angles(-0, 0, -0)
+obj16.FormFactor = Enum.FormFactor.Custom
+obj16.TopSurface = Enum.SurfaceType.Smooth
+obj16.BottomSurface = Enum.SurfaceType.Smooth
+obj16.Size = Vector3.new(81.7399597, 81.7200089, 105.17009)
+obj16.Anchored = true
+obj16.BrickColor = BrickColor.new("Dark stone grey")
+obj16.Friction = 0.30000001192093
+obj16.Shape = Enum.PartType.Block
+obj16.Parent = obj1
+
+-- 17 - Part
+obj17 = Instance.new("Part")
+obj17.CFrame = CFrame.new(Vector3.new(-270.570007, 107.789825, 589.694946)) * CFrame.Angles(-0, 0, -0)
+obj17.FormFactor = Enum.FormFactor.Custom
+obj17.TopSurface = Enum.SurfaceType.Smooth
+obj17.BottomSurface = Enum.SurfaceType.Smooth
+obj17.Size = Vector3.new(49.1999626, 81.7200089, 41.2700806)
+obj17.Anchored = true
+obj17.BrickColor = BrickColor.new("Dark stone grey")
+obj17.Friction = 0.30000001192093
+obj17.Shape = Enum.PartType.Block
+obj17.Parent = obj1
+
+-- 18 - Part
+obj18 = Instance.new("Part")
+obj18.CFrame = CFrame.new(Vector3.new(-249.292053, 283.413788, 52.7709961)) * CFrame.Angles(-0, 1.5704510211945, 0.0036764540709555)
+obj18.FormFactor = Enum.FormFactor.Custom
+obj18.TopSurface = Enum.SurfaceType.Smooth
+obj18.BottomSurface = Enum.SurfaceType.Smooth
+obj18.Size = Vector3.new(75.9899216, 15.0599995, 147.070129)
+obj18.Anchored = true
+obj18.BrickColor = BrickColor.new("Dark stone grey")
+obj18.Friction = 0.30000001192093
+obj18.Shape = Enum.PartType.Block
+obj18.Parent = obj1
+
+-- 19 - Part
+obj19 = Instance.new("Part")
+obj19.CFrame = CFrame.new(Vector3.new(-247.059998, 278.321716, -39.3359985)) * CFrame.Angles(-0, 1.5704510211945, 0.0036764540709555)
+obj19.FormFactor = Enum.FormFactor.Custom
+obj19.TopSurface = Enum.SurfaceType.Smooth
+obj19.BottomSurface = Enum.SurfaceType.Smooth
+obj19.Size = Vector3.new(190.33992, 244.529953, 208.070114)
+obj19.Anchored = true
+obj19.BrickColor = BrickColor.new("Dark stone grey")
+obj19.Friction = 0.30000001192093
+obj19.Shape = Enum.PartType.Block
+obj19.Parent = obj1
+
+-- 20 - Model
+obj20 = Instance.new("Model")
+obj20.Parent = obj1
+
+-- 21 - Head
+obj21 = Instance.new("Part")
+obj21.CFrame = CFrame.new(Vector3.new(-253.325989, 519.286621, -22.2630005)) * CFrame.Angles(-2.2855904102325, 1.4742178916931, 2.3466780185699)
+obj21.FormFactor = Enum.FormFactor.Custom
+obj21.TopSurface = Enum.SurfaceType.Smooth
+obj21.Size = Vector3.new(23.1573429, 23.1573353, 23.1573429)
+obj21.Anchored = true
+obj21.BrickColor = BrickColor.new("Dark stone grey")
+obj21.Friction = 0.30000001192093
+obj21.Shape = Enum.PartType.Block
+obj21.Name = "Head"
+obj21.Parent = obj20
+
+-- 22 - Mesh
+obj22 = Instance.new("SpecialMesh")
+obj22.Scale = Vector3.new(1.25, 1.25, 1.25)
+obj22.Parent = obj21
+
+-- 23 - Part
+obj23 = Instance.new("Part")
+obj23.CFrame = CFrame.new(Vector3.new(-250.48407, 482.571777, -27.0259991)) * CFrame.Angles(-3.0828397274017, -0.067580692470074, 3.072553396225)
+obj23.FormFactor = Enum.FormFactor.Custom
+obj23.TopSurface = Enum.SurfaceType.Smooth
+obj23.BottomSurface = Enum.SurfaceType.Smooth
+obj23.Material = Enum.Material.Slate
+obj23.Size = Vector3.new(23.1573429, 50.9461441, 46.3146858)
+obj23.Anchored = true
+obj23.BrickColor = BrickColor.new("Dark stone grey")
+obj23.Friction = 0.30000001192093
+obj23.Shape = Enum.PartType.Block
+obj23.Parent = obj20
+
+-- 24 - Part
+obj24 = Instance.new("Part")
+obj24.CFrame = CFrame.new(Vector3.new(-248.39801, 487.087677, -60.5969849)) * CFrame.Angles(-6.1066639318597e-06, 1.1700930595398, -2.796797990799)
+obj24.FormFactor = Enum.FormFactor.Custom
+obj24.TopSurface = Enum.SurfaceType.Smooth
+obj24.BottomSurface = Enum.SurfaceType.Smooth
+obj24.Material = Enum.Material.Slate
+obj24.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj24.Anchored = true
+obj24.BrickColor = BrickColor.new("Dark stone grey")
+obj24.Friction = 0.30000001192093
+obj24.Shape = Enum.PartType.Block
+obj24.Parent = obj20
+
+-- 25 - Handle
+obj25 = Instance.new("Part")
+obj25.CFrame = CFrame.new(Vector3.new(-253.309998, 534.67749, -20.1190186)) * CFrame.Angles(-3.082839012146, -0.067580945789814, 3.1316645145416)
+obj25.FormFactor = Enum.FormFactor.Custom
+obj25.TopSurface = Enum.SurfaceType.Smooth
+obj25.BottomSurface = Enum.SurfaceType.Smooth
+obj25.Size = Vector3.new(11.5786715, 13.8944025, 11.5786715)
+obj25.Anchored = true
+obj25.BrickColor = BrickColor.new("Dark stone grey")
+obj25.Friction = 0.30000001192093
+obj25.Shape = Enum.PartType.Block
+obj25.Name = "Handle"
+obj25.Parent = obj20
+
+-- 26 - Mesh
+obj26 = Instance.new("SpecialMesh")
+obj26.MeshType = Enum.MeshType.FileMesh
+obj26.Scale = Vector3.new(20.2626743, 20.2626686, 20.2626743)
+obj26.MeshId = "http://www.roblox.com/asset/?id=1323342"
+obj26.Parent = obj25
+
+-- 27 - Part
+obj27 = Instance.new("Part")
+obj27.CFrame = CFrame.new(Vector3.new(-246.299988, 480.206818, -59.6270142)) * CFrame.Angles(-2.3370926380157, 0.59259855747223, -3.0370697975159)
+obj27.FormFactor = Enum.FormFactor.Custom
+obj27.Transparency = 0.5
+obj27.TopSurface = Enum.SurfaceType.Smooth
+obj27.BottomSurface = Enum.SurfaceType.Smooth
+obj27.Material = Enum.Material.Slate
+obj27.Size = Vector3.new(32.7676392, 30.104538, 28.4835472)
+obj27.Anchored = true
+obj27.BrickColor = BrickColor.new("Really black")
+obj27.Friction = 0.30000001192093
+obj27.Shape = Enum.PartType.Block
+obj27.Parent = obj20
+
+-- 28 - Part
+obj28 = Instance.new("Part")
+obj28.CFrame = CFrame.new(Vector3.new(-250.285065, 473.6698, -68.9219971)) * CFrame.Angles(-2.2440240383148, -0.37844288349152, -3.0483253002167)
+obj28.FormFactor = Enum.FormFactor.Custom
+obj28.Transparency = 0.5
+obj28.TopSurface = Enum.SurfaceType.Smooth
+obj28.BottomSurface = Enum.SurfaceType.Smooth
+obj28.Material = Enum.Material.Slate
+obj28.Size = Vector3.new(32.7676392, 30.104538, 28.4835472)
+obj28.Anchored = true
+obj28.BrickColor = BrickColor.new("Really black")
+obj28.Friction = 0.30000001192093
+obj28.Shape = Enum.PartType.Block
+obj28.Parent = obj20
+
+-- 29 - Part
+obj29 = Instance.new("Part")
+obj29.CFrame = CFrame.new(Vector3.new(-243.621033, 473.723877, -66.1000366)) * CFrame.Angles(-2.2440240383148, -0.37844288349152, -3.0483253002167)
+obj29.FormFactor = Enum.FormFactor.Custom
+obj29.Transparency = 0.5
+obj29.TopSurface = Enum.SurfaceType.Smooth
+obj29.BottomSurface = Enum.SurfaceType.Smooth
+obj29.Material = Enum.Material.Slate
+obj29.Size = Vector3.new(32.7676392, 30.104538, 28.4835472)
+obj29.Anchored = true
+obj29.BrickColor = BrickColor.new("Really black")
+obj29.Friction = 0.30000001192093
+obj29.Shape = Enum.PartType.Block
+obj29.Parent = obj20
+
+-- 30 - Part
+obj30 = Instance.new("Part")
+obj30.CFrame = CFrame.new(Vector3.new(-246.15802, 476.272705, -65.6030273)) * CFrame.Angles(3.141592502594, -1.1700938940048, 2.7968034744263)
+obj30.FormFactor = Enum.FormFactor.Custom
+obj30.Transparency = 0.5
+obj30.TopSurface = Enum.SurfaceType.Smooth
+obj30.BottomSurface = Enum.SurfaceType.Smooth
+obj30.Material = Enum.Material.Slate
+obj30.Size = Vector3.new(32.7676392, 30.104538, 28.4835472)
+obj30.Anchored = true
+obj30.BrickColor = BrickColor.new("Really black")
+obj30.Friction = 0.30000001192093
+obj30.Shape = Enum.PartType.Block
+obj30.Parent = obj20
+
+-- 31 - BlackSteelBucket
+obj31 = Instance.new("Part")
+obj31.CFrame = CFrame.new(Vector3.new(-253.101013, 531.489441, -21.25)) * CFrame.Angles(-3.082839012146, -0.06758040189743, 3.1316640377045)
+obj31.FormFactor = Enum.FormFactor.Custom
+obj31.TopSurface = Enum.SurfaceType.Smooth
+obj31.BottomSurface = Enum.SurfaceType.Smooth
+obj31.Size = Vector3.new(11.5786715, 9.26293468, 11.5786715)
+obj31.Anchored = true
+obj31.BrickColor = BrickColor.new("Dark stone grey")
+obj31.Friction = 0.30000001192093
+obj31.Shape = Enum.PartType.Block
+obj31.Name = "BlackSteelBucket"
+obj31.Parent = obj20
+
+-- 32 - Mesh
+obj32 = Instance.new("SpecialMesh")
+obj32.MeshType = Enum.MeshType.FileMesh
+obj32.Scale = Vector3.new(21.4205399, 21.4205379, 21.4205437)
+obj32.MeshId = "http://www.roblox.com/asset/?id=1286103"
+obj32.Parent = obj31
+
+-- 33 - Rainbow Shaggy
+obj33 = Instance.new("Part")
+obj33.CFrame = CFrame.new(Vector3.new(-251.792053, 521.526611, -21.1480103)) * CFrame.Angles(3.1415550708771, -0.17200616002083, 3.1415579319)
+obj33.FormFactor = Enum.FormFactor.Custom
+obj33.TopSurface = Enum.SurfaceType.Smooth
+obj33.BottomSurface = Enum.SurfaceType.Smooth
+obj33.Size = Vector3.new(5.78933573, 5.78933382, 11.5786715)
+obj33.Anchored = true
+obj33.BrickColor = BrickColor.new("Dark stone grey")
+obj33.Friction = 0.30000001192093
+obj33.Shape = Enum.PartType.Block
+obj33.Name = "Rainbow Shaggy"
+obj33.Parent = obj20
+
+-- 34 - Mesh
+obj34 = Instance.new("SpecialMesh")
+obj34.MeshType = Enum.MeshType.FileMesh
+obj34.Scale = Vector3.new(20.2626743, 20.2626686, 20.2626743)
+obj34.MeshId = "http://www.roblox.com/asset/?id=19999424"
+obj34.Parent = obj33
+
+-- 35 - Part
+obj35 = Instance.new("Part")
+obj35.CFrame = CFrame.new(Vector3.new(-243.621033, 468.223755, -66.1000366)) * CFrame.Angles(-1.0904567241669, -0.43890139460564, -1.1420254707336)
+obj35.FormFactor = Enum.FormFactor.Custom
+obj35.Transparency = 0.5
+obj35.TopSurface = Enum.SurfaceType.Smooth
+obj35.BottomSurface = Enum.SurfaceType.Smooth
+obj35.Material = Enum.Material.Slate
+obj35.Size = Vector3.new(32.7676392, 30.104538, 28.4835472)
+obj35.Anchored = true
+obj35.BrickColor = BrickColor.new("Really black")
+obj35.Friction = 0.30000001192093
+obj35.Shape = Enum.PartType.Block
+obj35.Parent = obj20
+
+-- 36 - Part
+obj36 = Instance.new("Part")
+obj36.CFrame = CFrame.new(Vector3.new(-244.254089, 408.58786, -36.6730347)) * CFrame.Angles(1.573987788106e-06, 0.66133916378021, -1.9694807633641e-06)
+obj36.FormFactor = Enum.FormFactor.Custom
+obj36.Transparency = 0.30000001192093
+obj36.TopSurface = Enum.SurfaceType.Smooth
+obj36.BottomSurface = Enum.SurfaceType.Smooth
+obj36.Material = Enum.Material.Slate
+obj36.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj36.Anchored = true
+obj36.BrickColor = BrickColor.new("Black")
+obj36.Friction = 0.30000001192093
+obj36.Shape = Enum.PartType.Block
+obj36.Parent = obj20
+
+-- 37 - BlastMesh
+obj37 = Instance.new("SpecialMesh")
+obj37.MeshType = Enum.MeshType.FileMesh
+obj37.Name = "BlastMesh"
+obj37.Scale = Vector3.new(57.8933487, 57.8933372, 57.8933601)
+obj37.MeshId = "http://www.roblox.com/asset/?id=20329976"
+obj37.Parent = obj36
+
+-- 38 - Part
+obj38 = Instance.new("Part")
+obj38.CFrame = CFrame.new(Vector3.new(-244.254089, 410.321899, -36.6730347)) * CFrame.Angles(9.4845651332776e-09, -0.003181749721989, -7.1763116693546e-07)
+obj38.FormFactor = Enum.FormFactor.Custom
+obj38.Transparency = 0.30000001192093
+obj38.TopSurface = Enum.SurfaceType.Smooth
+obj38.BottomSurface = Enum.SurfaceType.Smooth
+obj38.Material = Enum.Material.Slate
+obj38.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj38.Anchored = true
+obj38.BrickColor = BrickColor.new("Black")
+obj38.Friction = 0.30000001192093
+obj38.Shape = Enum.PartType.Block
+obj38.Parent = obj20
+
+-- 39 - BlastMesh
+obj39 = Instance.new("SpecialMesh")
+obj39.MeshType = Enum.MeshType.FileMesh
+obj39.Name = "BlastMesh"
+obj39.Scale = Vector3.new(57.8933487, 6.36826801, 57.8933601)
+obj39.MeshId = "http://www.roblox.com/asset/?id=20329976"
+obj39.Parent = obj38
+
+-- 40 - Part
+obj40 = Instance.new("Part")
+obj40.CFrame = CFrame.new(Vector3.new(-244.254089, 407.307739, -36.6730347)) * CFrame.Angles(9.4845651332776e-09, -0.003181749721989, -7.1763116693546e-07)
+obj40.FormFactor = Enum.FormFactor.Custom
+obj40.Transparency = 0.30000001192093
+obj40.TopSurface = Enum.SurfaceType.Smooth
+obj40.BottomSurface = Enum.SurfaceType.Smooth
+obj40.Material = Enum.Material.Slate
+obj40.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj40.Anchored = true
+obj40.BrickColor = BrickColor.new("Black")
+obj40.Friction = 0.30000001192093
+obj40.Shape = Enum.PartType.Block
+obj40.Parent = obj20
+
+-- 41 - BlastMesh
+obj41 = Instance.new("SpecialMesh")
+obj41.MeshType = Enum.MeshType.FileMesh
+obj41.Name = "BlastMesh"
+obj41.Scale = Vector3.new(57.8933487, 57.8933372, 57.8933601)
+obj41.MeshId = "http://www.roblox.com/asset/?id=20329976"
+obj41.Parent = obj40
+
+-- 42 - Part
+obj42 = Instance.new("Part")
+obj42.CFrame = CFrame.new(Vector3.new(-244.254089, 428.725861, -36.6730347)) * CFrame.Angles(9.4845651332776e-09, -0.003181749721989, -7.1763116693546e-07)
+obj42.FormFactor = Enum.FormFactor.Custom
+obj42.Transparency = 0.30000001192093
+obj42.TopSurface = Enum.SurfaceType.Smooth
+obj42.BottomSurface = Enum.SurfaceType.Smooth
+obj42.Material = Enum.Material.Slate
+obj42.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj42.Anchored = true
+obj42.BrickColor = BrickColor.new("Black")
+obj42.Friction = 0.30000001192093
+obj42.Shape = Enum.PartType.Block
+obj42.Parent = obj20
+
+-- 43 - BlastMesh
+obj43 = Instance.new("SpecialMesh")
+obj43.MeshType = Enum.MeshType.FileMesh
+obj43.Name = "BlastMesh"
+obj43.Scale = Vector3.new(57.8933487, 86.8400116, 57.8933601)
+obj43.MeshId = "http://www.roblox.com/asset/?id=20329976"
+obj43.Parent = obj42
+
+-- 44 - Part
+obj44 = Instance.new("Part")
+obj44.CFrame = CFrame.new(Vector3.new(-246.34198, 431.622833, -17.6450195)) * CFrame.Angles(-4.4257001263759e-07, 0.27267983555794, 1.2039013199683e-06)
+obj44.FormFactor = Enum.FormFactor.Custom
+obj44.TopSurface = Enum.SurfaceType.Smooth
+obj44.BottomSurface = Enum.SurfaceType.Smooth
+obj44.Material = Enum.Material.Slate
+obj44.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj44.Anchored = true
+obj44.BrickColor = BrickColor.new("Dark stone grey")
+obj44.Friction = 0.30000001192093
+obj44.Shape = Enum.PartType.Block
+obj44.Parent = obj20
+
+-- 45 - Part
+obj45 = Instance.new("Part")
+obj45.CFrame = CFrame.new(Vector3.new(-250.813049, 432.786743, -42.6949463)) * CFrame.Angles(-3.0167875289917, -0.2021926343441, 3.0827584266663)
+obj45.FormFactor = Enum.FormFactor.Custom
+obj45.TopSurface = Enum.SurfaceType.Smooth
+obj45.BottomSurface = Enum.SurfaceType.Smooth
+obj45.Material = Enum.Material.Slate
+obj45.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj45.Anchored = true
+obj45.BrickColor = BrickColor.new("Dark stone grey")
+obj45.Friction = 0.30000001192093
+obj45.Shape = Enum.PartType.Block
+obj45.Parent = obj20
+
+-- 46 - Part
+obj46 = Instance.new("Part")
+obj46.CFrame = CFrame.new(Vector3.new(-247.037048, 494.620819, 22.275053)) * CFrame.Angles(-2.2855892181396, 1.4741604328156, 0.77588611841202)
+obj46.FormFactor = Enum.FormFactor.Custom
+obj46.TopSurface = Enum.SurfaceType.Smooth
+obj46.BottomSurface = Enum.SurfaceType.Smooth
+obj46.Material = Enum.Material.Slate
+obj46.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj46.Anchored = true
+obj46.BrickColor = BrickColor.new("Dark stone grey")
+obj46.Friction = 0.30000001192093
+obj46.Shape = Enum.PartType.Block
+obj46.Parent = obj20
+
+-- 47 - Part
+obj47 = Instance.new("Part")
+obj47.CFrame = CFrame.new(Vector3.new(-241.828064, 391.098694, -39.0150146)) * CFrame.Angles(3.1415922641754, -1.1700944900513, 3.1415922641754)
+obj47.FormFactor = Enum.FormFactor.Custom
+obj47.TopSurface = Enum.SurfaceType.Smooth
+obj47.BottomSurface = Enum.SurfaceType.Smooth
+obj47.Material = Enum.Material.Slate
+obj47.Size = Vector3.new(115.786697, 30.104538, 138.944061)
+obj47.Anchored = true
+obj47.BrickColor = BrickColor.new("Dark stone grey")
+obj47.Friction = 0.30000001192093
+obj47.Shape = Enum.PartType.Block
+obj47.Parent = obj20
+
+-- 48 - Part
+obj48 = Instance.new("Part")
+obj48.CFrame = CFrame.new(Vector3.new(-244.254089, 413.389832, -36.6730347)) * CFrame.Angles(1.6194712770812e-07, -0.40070044994354, 2.0803767597499e-07)
+obj48.FormFactor = Enum.FormFactor.Custom
+obj48.Transparency = 0.30000001192093
+obj48.TopSurface = Enum.SurfaceType.Smooth
+obj48.BottomSurface = Enum.SurfaceType.Smooth
+obj48.Material = Enum.Material.Slate
+obj48.Size = Vector3.new(23.1573429, 50.9461441, 23.1573429)
+obj48.Anchored = true
+obj48.BrickColor = BrickColor.new("Black")
+obj48.Friction = 0.30000001192093
+obj48.Shape = Enum.PartType.Block
+obj48.Parent = obj20
+
+-- 49 - BlastMesh
+obj49 = Instance.new("SpecialMesh")
+obj49.MeshType = Enum.MeshType.FileMesh
+obj49.Name = "BlastMesh"
+obj49.Scale = Vector3.new(57.8933487, 6.36826801, 57.8933601)
+obj49.MeshId = "http://www.roblox.com/asset/?id=20329976"
+obj49.Parent = obj48
+
+-- 50 - Model
+obj50 = Instance.new("Model")
+obj50.Parent = obj20
+
+-- 51 - Handle
+obj51 = Instance.new("Part")
+obj51.CFrame = CFrame.new(Vector3.new(-243.240051, 494.022827, 44.1659851)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476810932159)
+obj51.FormFactor = Enum.FormFactor.Custom
+obj51.TopSurface = Enum.SurfaceType.Smooth
+obj51.Reflectance = 0.050000000745058
+obj51.BottomSurface = Enum.SurfaceType.Smooth
+obj51.Size = Vector3.new(11.5786715, 40.5253372, 11.5786715)
+obj51.Anchored = true
+obj51.BrickColor = BrickColor.new("Black")
+obj51.Friction = 0.30000001192093
+obj51.Shape = Enum.PartType.Block
+obj51.Name = "Handle"
+obj51.Parent = obj50
+
+-- 52 - Mesh
+obj52 = Instance.new("SpecialMesh")
+obj52.Scale = Vector3.new(0.200000003, 1.04999995, 0.200000003)
+obj52.Parent = obj51
+
+-- 53 - Handle21
+obj53 = Instance.new("Part")
+obj53.CFrame = CFrame.new(Vector3.new(-241.565002, 489.348785, 63.8129883)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476813316345)
+obj53.FormFactor = Enum.FormFactor.Custom
+obj53.CanCollide = false
+obj53.TopSurface = Enum.SurfaceType.Smooth
+obj53.Reflectance = 0.050000000745058
+obj53.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj53.BottomSurface = Enum.SurfaceType.Smooth
+obj53.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj53.Anchored = true
+obj53.BrickColor = BrickColor.new("Royal purple")
+obj53.Velocity = Vector3.new(-6.80338999e-05, 0.0157066602, 0.000512229628)
+obj53.Friction = 0.30000001192093
+obj53.Shape = Enum.PartType.Block
+obj53.Name = "Handle21"
+obj53.Parent = obj50
+
+-- 54 - Mesh
+obj54 = Instance.new("SpecialMesh")
+obj54.MeshType = Enum.MeshType.FileMesh
+obj54.Scale = Vector3.new(5.78933573, 14.4733343, 5.78933573)
+obj54.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj54.Parent = obj53
+
+-- 55 - Handle15
+obj55 = Instance.new("Part")
+obj55.CFrame = CFrame.new(Vector3.new(-231.981995, 496.509766, 57.2349854)) * CFrame.Angles(0.233482375741, 0.082838326692581, 2.0607693195343)
+obj55.FormFactor = Enum.FormFactor.Custom
+obj55.CanCollide = false
+obj55.TopSurface = Enum.SurfaceType.Smooth
+obj55.Reflectance = 0.050000000745058
+obj55.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj55.BottomSurface = Enum.SurfaceType.Smooth
+obj55.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj55.Anchored = true
+obj55.BrickColor = BrickColor.new("Black")
+obj55.Velocity = Vector3.new(7.69598992e-05, 0.0157066602, 0.000282318972)
+obj55.Friction = 0.30000001192093
+obj55.Shape = Enum.PartType.Block
+obj55.Name = "Handle15"
+obj55.Parent = obj50
+
+-- 56 - Mesh
+obj56 = Instance.new("SpecialMesh")
+obj56.MeshType = Enum.MeshType.Wedge
+obj56.Scale = Vector3.new(0.75, 1, 0.75)
+obj56.Parent = obj55
+
+-- 57 - Handle5
+obj57 = Instance.new("Part")
+obj57.CFrame = CFrame.new(Vector3.new(-241.087097, 488.009766, 69.4229736)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476813316345)
+obj57.FormFactor = Enum.FormFactor.Custom
+obj57.CanCollide = false
+obj57.TopSurface = Enum.SurfaceType.Smooth
+obj57.Reflectance = 0.050000000745058
+obj57.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj57.BottomSurface = Enum.SurfaceType.Smooth
+obj57.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj57.Anchored = true
+obj57.BrickColor = BrickColor.new("Black")
+obj57.Velocity = Vector3.new(-0.000107178246, 0.0157066602, 0.000640722457)
+obj57.Friction = 0.30000001192093
+obj57.Shape = Enum.PartType.Block
+obj57.Name = "Handle5"
+obj57.Parent = obj50
+
+-- 58 - Mesh
+obj58 = Instance.new("SpecialMesh")
+obj58.MeshType = Enum.MeshType.FileMesh
+obj58.Scale = Vector3.new(3.18413448, -11.5786676, 3.18413496)
+obj58.MeshId = "http://www.roblox.com/asset/?id=1033714"
+obj58.Parent = obj57
+
+-- 59 - Handle7
+obj59 = Instance.new("Part")
+obj59.CFrame = CFrame.new(Vector3.new(-243.992981, 487.639648, 65.1049805)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476815700531)
+obj59.FormFactor = Enum.FormFactor.Custom
+obj59.CanCollide = false
+obj59.TopSurface = Enum.SurfaceType.Smooth
+obj59.Reflectance = 0.050000000745058
+obj59.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj59.BottomSurface = Enum.SurfaceType.Smooth
+obj59.Size = Vector3.new(5.78933573, 11.5786676, 5.78933573)
+obj59.Anchored = true
+obj59.BrickColor = BrickColor.new("Black")
+obj59.Velocity = Vector3.new(-0.000101835816, 0.0157066602, 0.000561677269)
+obj59.Friction = 0.30000001192093
+obj59.Shape = Enum.PartType.Block
+obj59.Name = "Handle7"
+obj59.Parent = obj50
+
+-- 60 - Mesh
+obj60 = Instance.new("BlockMesh")
+obj60.Scale = Vector3.new(1, 0.75, 0.75)
+obj60.Parent = obj59
+
+-- 61 - Handle14
+obj61 = Instance.new("Part")
+obj61.CFrame = CFrame.new(Vector3.new(-238.898987, 490.388672, 65.3259888)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476815700531)
+obj61.FormFactor = Enum.FormFactor.Custom
+obj61.CanCollide = false
+obj61.TopSurface = Enum.SurfaceType.Smooth
+obj61.Reflectance = 0.050000000745058
+obj61.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj61.BottomSurface = Enum.SurfaceType.Smooth
+obj61.Size = Vector3.new(5.78933573, 11.5786676, 5.78933573)
+obj61.Anchored = true
+obj61.BrickColor = BrickColor.new("Black")
+obj61.Velocity = Vector3.new(-5.38041495e-05, 0.0157066602, 0.000527028402)
+obj61.Friction = 0.30000001192093
+obj61.Shape = Enum.PartType.Block
+obj61.Name = "Handle14"
+obj61.Parent = obj50
+
+-- 62 - Mesh
+obj62 = Instance.new("BlockMesh")
+obj62.Scale = Vector3.new(1, 0.75, 0.75)
+obj62.Parent = obj61
+
+-- 63 - Handle13
+obj63 = Instance.new("Part")
+obj63.CFrame = CFrame.new(Vector3.new(-231.265076, 494.51474, 65.6489868)) * CFrame.Angles(-2.9081404209137, -0.082846634089947, -2.0608086585999)
+obj63.FormFactor = Enum.FormFactor.Custom
+obj63.CanCollide = false
+obj63.TopSurface = Enum.SurfaceType.Smooth
+obj63.Reflectance = 0.050000000745058
+obj63.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj63.BottomSurface = Enum.SurfaceType.Smooth
+obj63.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj63.Anchored = true
+obj63.BrickColor = BrickColor.new("Black")
+obj63.Velocity = Vector3.new(1.82433723e-05, 0.0157066602, 0.000475060486)
+obj63.Friction = 0.30000001192093
+obj63.Shape = Enum.PartType.Block
+obj63.Name = "Handle13"
+obj63.Parent = obj50
+
+-- 64 - Mesh
+obj64 = Instance.new("SpecialMesh")
+obj64.MeshType = Enum.MeshType.Wedge
+obj64.Scale = Vector3.new(0.75, 1, 0.75)
+obj64.Parent = obj63
+
+-- 65 - Handle20
+obj65 = Instance.new("Part")
+obj65.CFrame = CFrame.new(Vector3.new(-241.565002, 489.348785, 63.8129883)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476813316345)
+obj65.FormFactor = Enum.FormFactor.Custom
+obj65.CanCollide = false
+obj65.TopSurface = Enum.SurfaceType.Smooth
+obj65.Reflectance = 0.050000000745058
+obj65.BottomSurface = Enum.SurfaceType.Smooth
+obj65.Size = Vector3.new(17.3680077, 17.3680019, 17.3680077)
+obj65.Anchored = true
+obj65.BrickColor = BrickColor.new("Royal purple")
+obj65.Friction = 0.30000001192093
+obj65.Shape = Enum.PartType.Block
+obj65.Name = "Handle20"
+obj65.Parent = obj50
+
+-- 66 - Mesh
+obj66 = Instance.new("SpecialMesh")
+obj66.MeshType = Enum.MeshType.FileMesh
+obj66.Scale = Vector3.new(14.4733372, 5.78933382, 5.78933573)
+obj66.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj66.Parent = obj65
+
+-- 67 - Handle3
+obj67 = Instance.new("Part")
+obj67.CFrame = CFrame.new(Vector3.new(-243.240051, 494.022827, 44.1659851)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476815700531)
+obj67.FormFactor = Enum.FormFactor.Custom
+obj67.CanCollide = false
+obj67.TopSurface = Enum.SurfaceType.Smooth
+obj67.Reflectance = 0.050000000745058
+obj67.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj67.BottomSurface = Enum.SurfaceType.Smooth
+obj67.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj67.Anchored = true
+obj67.BrickColor = BrickColor.new("Black")
+obj67.Velocity = Vector3.new(6.89713343e-05, 0.0157066602, 6.25088724e-05)
+obj67.Friction = 0.30000001192093
+obj67.Shape = Enum.PartType.Block
+obj67.Name = "Handle3"
+obj67.Parent = obj50
+
+-- 68 - Mesh
+obj68 = Instance.new("SpecialMesh")
+obj68.MeshType = Enum.MeshType.FileMesh
+obj68.Scale = Vector3.new(3.18413448, 57.8933372, 3.18413496)
+obj68.MeshId = "http://www.roblox.com/asset/?id=1033714"
+obj68.Parent = obj67
+
+-- 69 - Handle4
+obj69 = Instance.new("Part")
+obj69.CFrame = CFrame.new(Vector3.new(-242.518982, 492.020721, 52.5879822)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476813316345)
+obj69.FormFactor = Enum.FormFactor.Custom
+obj69.CanCollide = false
+obj69.TopSurface = Enum.SurfaceType.Smooth
+obj69.Reflectance = 0.050000000745058
+obj69.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj69.BottomSurface = Enum.SurfaceType.Smooth
+obj69.Size = Vector3.new(5.78933573, 40.5253372, 5.78933573)
+obj69.Anchored = true
+obj69.BrickColor = BrickColor.new("Really black")
+obj69.Velocity = Vector3.new(1.02548074e-05, 0.0157066602, 0.000255246006)
+obj69.Friction = 0.30000001192093
+obj69.Shape = Enum.PartType.Block
+obj69.Name = "Handle4"
+obj69.Parent = obj50
+
+-- 70 - Mesh
+obj70 = Instance.new("CylinderMesh")
+obj70.Scale = Vector3.new(1.70000005, 0.0500000007, 1.70000005)
+obj70.Parent = obj69
+
+-- 71 - Handle19
+obj71 = Instance.new("Part")
+obj71.CFrame = CFrame.new(Vector3.new(-241.087097, 488.009766, 69.4229736)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476813316345)
+obj71.FormFactor = Enum.FormFactor.Custom
+obj71.CanCollide = false
+obj71.TopSurface = Enum.SurfaceType.Smooth
+obj71.Reflectance = 0.050000000745058
+obj71.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj71.BottomSurface = Enum.SurfaceType.Smooth
+obj71.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj71.Anchored = true
+obj71.BrickColor = BrickColor.new("Royal purple")
+obj71.Velocity = Vector3.new(-0.000107178246, 0.0157066602, 0.000640722457)
+obj71.Friction = 0.30000001192093
+obj71.Shape = Enum.PartType.Block
+obj71.Name = "Handle19"
+obj71.Parent = obj50
+
+-- 72 - Mesh
+obj72 = Instance.new("SpecialMesh")
+obj72.MeshType = Enum.MeshType.FileMesh
+obj72.Scale = Vector3.new(4.34200191, 8.68400097, 4.34200191)
+obj72.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj72.Parent = obj71
+
+-- 73 - Part
+obj73 = Instance.new("Part")
+obj73.CFrame = CFrame.new(Vector3.new(-221.642029, 482.58786, 127.117004)) * CFrame.Angles(1.650337100029, -1.0743843317032, -1.7454340457916)
+obj73.FormFactor = Enum.FormFactor.Custom
+obj73.TopSurface = Enum.SurfaceType.Smooth
+obj73.Reflectance = 0.050000000745058
+obj73.BottomSurface = Enum.SurfaceType.Smooth
+obj73.Material = Enum.Material.Slate
+obj73.Size = Vector3.new(141.259811, 1.73680031, 2.95256138)
+obj73.Anchored = true
+obj73.BrickColor = BrickColor.new("Black")
+obj73.Friction = 0.30000001192093
+obj73.Shape = Enum.PartType.Block
+obj73.Parent = obj50
+
+-- 74 - Part
+obj74 = Instance.new("Part")
+obj74.CFrame = CFrame.new(Vector3.new(-235.891052, 474.315796, 128.028015)) * CFrame.Angles(1.650337100029, -1.0743843317032, -1.7454340457916)
+obj74.FormFactor = Enum.FormFactor.Custom
+obj74.TopSurface = Enum.SurfaceType.Smooth
+obj74.Reflectance = 0.050000000745058
+obj74.BottomSurface = Enum.SurfaceType.Smooth
+obj74.Size = Vector3.new(135.181015, 1.38944018, 30.0466366)
+obj74.Anchored = true
+obj74.BrickColor = BrickColor.new("Lavender")
+obj74.Friction = 0.30000001192093
+obj74.Shape = Enum.PartType.Block
+obj74.Parent = obj50
+
+-- 75 - Handle10
+obj75 = Instance.new("Part")
+obj75.CFrame = CFrame.new(Vector3.new(-221.908997, 461.382782, 200.459015)) * CFrame.Angles(1.6503304243088, -1.0743767023087, -0.17464280128479)
+obj75.FormFactor = Enum.FormFactor.Custom
+obj75.CanCollide = false
+obj75.TopSurface = Enum.SurfaceType.Smooth
+obj75.Reflectance = 0.050000000745058
+obj75.BottomSurface = Enum.SurfaceType.Smooth
+obj75.Size = Vector3.new(1.44733393, 13.8944044, 17.2522144)
+obj75.Anchored = true
+obj75.BrickColor = BrickColor.new("Lavender")
+obj75.Friction = 0.30000001192093
+obj75.Shape = Enum.PartType.Block
+obj75.Name = "Handle10"
+obj75.Parent = obj50
+
+-- 76 - Mesh
+obj76 = Instance.new("SpecialMesh")
+obj76.MeshType = Enum.MeshType.Wedge
+obj76.Parent = obj75
+
+-- 77 - Part
+obj77 = Instance.new("Part")
+obj77.CFrame = CFrame.new(Vector3.new(-222.657043, 460.856689, 201.06601)) * CFrame.Angles(2.986528635025, -0.66824454069138, -0.64046603441238)
+obj77.FormFactor = Enum.FormFactor.Custom
+obj77.TopSurface = Enum.SurfaceType.Smooth
+obj77.Reflectance = 0.050000000745058
+obj77.BottomSurface = Enum.SurfaceType.Smooth
+obj77.Material = Enum.Material.Slate
+obj77.Size = Vector3.new(23.1573467, 1.73680007, 2.95256138)
+obj77.Anchored = true
+obj77.BrickColor = BrickColor.new("Black")
+obj77.Friction = 0.30000001192093
+obj77.Shape = Enum.PartType.Block
+obj77.Parent = obj50
+
+-- 78 - Part
+obj78 = Instance.new("Part")
+obj78.CFrame = CFrame.new(Vector3.new(-250.366028, 466.956787, 125.447998)) * CFrame.Angles(1.650337100029, -1.0743843317032, -1.7454340457916)
+obj78.FormFactor = Enum.FormFactor.Custom
+obj78.TopSurface = Enum.SurfaceType.Smooth
+obj78.Reflectance = 0.050000000745058
+obj78.BottomSurface = Enum.SurfaceType.Smooth
+obj78.Material = Enum.Material.Slate
+obj78.Size = Vector3.new(141.780899, 2.25784039, 2.95256138)
+obj78.Anchored = true
+obj78.BrickColor = BrickColor.new("Black")
+obj78.Friction = 0.30000001192093
+obj78.Shape = Enum.PartType.Block
+obj78.Parent = obj50
+
+-- 79 - Handle18
+obj79 = Instance.new("Part")
+obj79.CFrame = CFrame.new(Vector3.new(-223.432068, 502.3237, 53.406002)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476815700531)
+obj79.FormFactor = Enum.FormFactor.Custom
+obj79.CanCollide = false
+obj79.TopSurface = Enum.SurfaceType.Smooth
+obj79.Reflectance = 0.050000000745058
+obj79.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj79.BottomSurface = Enum.SurfaceType.Smooth
+obj79.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj79.Anchored = true
+obj79.BrickColor = BrickColor.new("Royal purple")
+obj79.Velocity = Vector3.new(0.000190372783, 0.0157066602, 0.000125318606)
+obj79.Friction = 0.30000001192093
+obj79.Shape = Enum.PartType.Block
+obj79.Name = "Handle18"
+obj79.Parent = obj50
+
+-- 80 - Mesh
+obj80 = Instance.new("SpecialMesh")
+obj80.MeshType = Enum.MeshType.FileMesh
+obj80.Scale = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj80.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj80.Parent = obj79
+
+-- 81 - Handle17
+obj81 = Instance.new("Part")
+obj81.CFrame = CFrame.new(Vector3.new(-223.798035, 503.3237, 49.1959839)) * CFrame.Angles(0.23344743251801, 0.082908414304256, -1.0808027982712)
+obj81.FormFactor = Enum.FormFactor.Custom
+obj81.CanCollide = false
+obj81.TopSurface = Enum.SurfaceType.Smooth
+obj81.Reflectance = 0.050000000745058
+obj81.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj81.BottomSurface = Enum.SurfaceType.Smooth
+obj81.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj81.Anchored = true
+obj81.BrickColor = BrickColor.new("Black")
+obj81.Velocity = Vector3.new(0.000219731039, 0.0157066602, 2.89522104e-05)
+obj81.Friction = 0.30000001192093
+obj81.Shape = Enum.PartType.Block
+obj81.Name = "Handle17"
+obj81.Parent = obj50
+
+-- 82 - Mesh
+obj82 = Instance.new("SpecialMesh")
+obj82.MeshType = Enum.MeshType.Wedge
+obj82.Scale = Vector3.new(0.75, 0.75, 0.75)
+obj82.Parent = obj81
+
+-- 83 - Handle16
+obj83 = Instance.new("Part")
+obj83.CFrame = CFrame.new(Vector3.new(-223.073059, 501.321716, 57.6199951)) * CFrame.Angles(-2.9081404209137, -0.082846634089947, -2.0608086585999)
+obj83.FormFactor = Enum.FormFactor.Custom
+obj83.CanCollide = false
+obj83.TopSurface = Enum.SurfaceType.Smooth
+obj83.Reflectance = 0.050000000745058
+obj83.BottomSurface = Enum.SurfaceType.Smooth
+obj83.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj83.Anchored = true
+obj83.BrickColor = BrickColor.new("Black")
+obj83.Friction = 0.30000001192093
+obj83.Shape = Enum.PartType.Block
+obj83.Name = "Handle16"
+obj83.Parent = obj50
+
+-- 84 - Mesh
+obj84 = Instance.new("SpecialMesh")
+obj84.MeshType = Enum.MeshType.Wedge
+obj84.Scale = Vector3.new(0.75, 0.75, 0.75)
+obj84.Parent = obj83
+
+-- 85 - Handle8
+obj85 = Instance.new("Part")
+obj85.CFrame = CFrame.new(Vector3.new(-251.625061, 483.514801, 64.7770386)) * CFrame.Angles(-2.9080955982208, -0.082871861755848, 1.0807647705078)
+obj85.FormFactor = Enum.FormFactor.Custom
+obj85.CanCollide = false
+obj85.TopSurface = Enum.SurfaceType.Smooth
+obj85.Reflectance = 0.050000000745058
+obj85.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj85.BottomSurface = Enum.SurfaceType.Smooth
+obj85.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj85.Anchored = true
+obj85.BrickColor = BrickColor.new("Black")
+obj85.Velocity = Vector3.new(-0.0001738828, 0.0157066602, 0.000613647397)
+obj85.Friction = 0.30000001192093
+obj85.Shape = Enum.PartType.Block
+obj85.Name = "Handle8"
+obj85.Parent = obj50
+
+-- 86 - Mesh
+obj86 = Instance.new("SpecialMesh")
+obj86.MeshType = Enum.MeshType.Wedge
+obj86.Scale = Vector3.new(0.75, 1, 0.75)
+obj86.Parent = obj85
+
+-- 87 - Handle9
+obj87 = Instance.new("Part")
+obj87.CFrame = CFrame.new(Vector3.new(-252.340027, 485.520721, 56.3569946)) * CFrame.Angles(0.23344743251801, 0.082908414304256, -1.0808027982712)
+obj87.FormFactor = Enum.FormFactor.Custom
+obj87.CanCollide = false
+obj87.TopSurface = Enum.SurfaceType.Smooth
+obj87.Reflectance = 0.050000000745058
+obj87.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj87.BottomSurface = Enum.SurfaceType.Smooth
+obj87.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj87.Anchored = true
+obj87.BrickColor = BrickColor.new("Black")
+obj87.Velocity = Vector3.new(-0.000115166273, 0.0157066602, 0.000420910248)
+obj87.Friction = 0.30000001192093
+obj87.Shape = Enum.PartType.Block
+obj87.Name = "Handle9"
+obj87.Parent = obj50
+
+-- 88 - Mesh
+obj88 = Instance.new("SpecialMesh")
+obj88.MeshType = Enum.MeshType.Wedge
+obj88.Scale = Vector3.new(0.75, 1, 0.75)
+obj88.Parent = obj87
+
+-- 89 - Handle2
+obj89 = Instance.new("Part")
+obj89.CFrame = CFrame.new(Vector3.new(-245.398987, 500.026764, 18.9129944)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476815700531)
+obj89.FormFactor = Enum.FormFactor.Custom
+obj89.CanCollide = false
+obj89.TopSurface = Enum.SurfaceType.Smooth
+obj89.Reflectance = 0.050000000745058
+obj89.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj89.BottomSurface = Enum.SurfaceType.Smooth
+obj89.Size = Vector3.new(5.78933573, 11.5786676, 5.78933573)
+obj89.Anchored = true
+obj89.BrickColor = BrickColor.new("Black")
+obj89.Velocity = Vector3.new(0.0002451209, 0.0157066602, -0.000515702588)
+obj89.Friction = 0.30000001192093
+obj89.Shape = Enum.PartType.Block
+obj89.Name = "Handle2"
+obj89.Parent = obj50
+
+-- 90 - Mesh
+obj90 = Instance.new("SpecialMesh")
+obj90.MeshType = Enum.MeshType.FileMesh
+obj90.Scale = Vector3.new(10.1313372, 10.1313343, 17.3680077)
+obj90.MeshId = "http://www.roblox.com/asset/?id=3270017"
+obj90.Parent = obj89
+
+-- 91 - Handle6
+obj91 = Instance.new("Part")
+obj91.CFrame = CFrame.new(Vector3.new(-245.398987, 500.026764, 18.9129944)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476813316345)
+obj91.FormFactor = Enum.FormFactor.Custom
+obj91.CanCollide = false
+obj91.TopSurface = Enum.SurfaceType.Smooth
+obj91.Reflectance = 0.050000000745058
+obj91.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj91.BottomSurface = Enum.SurfaceType.Smooth
+obj91.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj91.Anchored = true
+obj91.BrickColor = BrickColor.new("Royal purple")
+obj91.Velocity = Vector3.new(0.0002451209, 0.0157066602, -0.000515702588)
+obj91.Friction = 0.30000001192093
+obj91.Shape = Enum.PartType.Block
+obj91.Name = "Handle6"
+obj91.Parent = obj50
+
+-- 92 - Mesh
+obj92 = Instance.new("SpecialMesh")
+obj92.MeshType = Enum.MeshType.FileMesh
+obj92.Scale = Vector3.new(2.89466786, 5.78933382, 2.89466786)
+obj92.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj92.Parent = obj91
+
+-- 93 - Handle10
+obj93 = Instance.new("Part")
+obj93.CFrame = CFrame.new(Vector3.new(-261.249084, 480.706818, 55.9720154)) * CFrame.Angles(-2.9080955982208, -0.082871861755848, 1.0807647705078)
+obj93.FormFactor = Enum.FormFactor.Custom
+obj93.CanCollide = false
+obj93.TopSurface = Enum.SurfaceType.Smooth
+obj93.Reflectance = 0.050000000745058
+obj93.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj93.BottomSurface = Enum.SurfaceType.Smooth
+obj93.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj93.Anchored = true
+obj93.BrickColor = BrickColor.new("Black")
+obj93.Velocity = Vector3.new(-0.000199221424, 0.0157066602, 0.000481544179)
+obj93.Friction = 0.30000001192093
+obj93.Shape = Enum.PartType.Block
+obj93.Name = "Handle10"
+obj93.Parent = obj50
+
+-- 94 - Mesh
+obj94 = Instance.new("SpecialMesh")
+obj94.MeshType = Enum.MeshType.Wedge
+obj94.Scale = Vector3.new(0.75, 0.75, 0.75)
+obj94.Parent = obj93
+
+-- 95 - Handle11
+obj95 = Instance.new("Part")
+obj95.CFrame = CFrame.new(Vector3.new(-261.971985, 482.708649, 47.5550232)) * CFrame.Angles(0.233482375741, 0.082838326692581, 2.0607693195343)
+obj95.FormFactor = Enum.FormFactor.Custom
+obj95.CanCollide = false
+obj95.TopSurface = Enum.SurfaceType.Smooth
+obj95.Reflectance = 0.050000000745058
+obj95.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj95.BottomSurface = Enum.SurfaceType.Smooth
+obj95.Size = Vector3.new(5.78933573, 11.5786676, 11.5786715)
+obj95.Anchored = true
+obj95.BrickColor = BrickColor.new("Black")
+obj95.Velocity = Vector3.new(-0.000140504897, 0.0157066602, 0.000288802665)
+obj95.Friction = 0.30000001192093
+obj95.Shape = Enum.PartType.Block
+obj95.Name = "Handle11"
+obj95.Parent = obj50
+
+-- 96 - Mesh
+obj96 = Instance.new("SpecialMesh")
+obj96.MeshType = Enum.MeshType.Wedge
+obj96.Scale = Vector3.new(0.75, 0.75, 0.75)
+obj96.Parent = obj95
+
+-- 97 - Handle12
+obj97 = Instance.new("Part")
+obj97.CFrame = CFrame.new(Vector3.new(-261.612, 481.706818, 51.7680054)) * CFrame.Angles(1.8484306335449, 0.48820146918297, 3.0476815700531)
+obj97.FormFactor = Enum.FormFactor.Custom
+obj97.CanCollide = false
+obj97.TopSurface = Enum.SurfaceType.Smooth
+obj97.Reflectance = 0.050000000745058
+obj97.RotVelocity = Vector3.new(-5.34759341e-25, 0.000142877427, -5.51723006e-25)
+obj97.BottomSurface = Enum.SurfaceType.Smooth
+obj97.Size = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj97.Anchored = true
+obj97.BrickColor = BrickColor.new("Royal purple")
+obj97.Velocity = Vector3.new(-0.000169863168, 0.0157066602, 0.000385173422)
+obj97.Friction = 0.30000001192093
+obj97.Shape = Enum.PartType.Block
+obj97.Name = "Handle12"
+obj97.Parent = obj50
+
+-- 98 - Mesh
+obj98 = Instance.new("SpecialMesh")
+obj98.MeshType = Enum.MeshType.FileMesh
+obj98.Scale = Vector3.new(5.78933573, 5.78933382, 5.78933573)
+obj98.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj98.Parent = obj97
+
+-- 99 - Part
+obj99 = Instance.new("Part")
+obj99.CFrame = CFrame.new(Vector3.new(-236.96405, 453.118896, 200.362)) * CFrame.Angles(-2.5557405948639, 0.51911532878876, -0.57069289684296)
+obj99.FormFactor = Enum.FormFactor.Custom
+obj99.TopSurface = Enum.SurfaceType.Smooth
+obj99.Reflectance = 0.050000000745058
+obj99.BottomSurface = Enum.SurfaceType.Smooth
+obj99.Material = Enum.Material.Slate
+obj99.Size = Vector3.new(22.6941986, 2.19994736, 2.95256138)
+obj99.Anchored = true
+obj99.BrickColor = BrickColor.new("Black")
+obj99.Friction = 0.30000001192093
+obj99.Shape = Enum.PartType.Block
+obj99.Parent = obj50
+
+-- 100 - Handle10
+obj100 = Instance.new("Part")
+obj100.CFrame = CFrame.new(Vector3.new(-236.79303, 453.315796, 199.781006)) * CFrame.Angles(-2.9080955982208, -0.082871861755848, 1.0807647705078)
+obj100.FormFactor = Enum.FormFactor.Custom
+obj100.CanCollide = false
+obj100.TopSurface = Enum.SurfaceType.Smooth
+obj100.Reflectance = 0.050000000745058
+obj100.BottomSurface = Enum.SurfaceType.Smooth
+obj100.Size = Vector3.new(1.56312132, 16.673275, 13.836503)
+obj100.Anchored = true
+obj100.BrickColor = BrickColor.new("Lavender")
+obj100.Friction = 0.30000001192093
+obj100.Shape = Enum.PartType.Block
+obj100.Name = "Handle10"
+obj100.Parent = obj50
+
+-- 101 - Mesh
+obj101 = Instance.new("SpecialMesh")
+obj101.MeshType = Enum.MeshType.Wedge
+obj101.Parent = obj100
+
+-- 102 - Part
+obj102 = Instance.new("Part")
+obj102.CFrame = CFrame.new(Vector3.new(-250.315979, 336.848663, 43.315979)) * CFrame.Angles(-0, 1.5704510211945, 0.0036764540709555)
+obj102.FormFactor = Enum.FormFactor.Custom
+obj102.TopSurface = Enum.SurfaceType.Smooth
+obj102.BottomSurface = Enum.SurfaceType.Smooth
+obj102.Size = Vector3.new(57.0799217, 96.75, 140.820129)
+obj102.Anchored = true
+obj102.BrickColor = BrickColor.new("Dark stone grey")
+obj102.Friction = 0.30000001192093
+obj102.Shape = Enum.PartType.Block
+obj102.Parent = obj1
+
+-- 103 - Part
+obj103 = Instance.new("Part")
+obj103.CFrame = CFrame.new(Vector3.new(-230.584045, 127.891731, -56.0849609)) * CFrame.Angles(-0, 0, -0)
+obj103.FormFactor = Enum.FormFactor.Custom
+obj103.TopSurface = Enum.SurfaceType.Smooth
+obj103.BottomSurface = Enum.SurfaceType.Smooth
+obj103.Size = Vector3.new(144.95993, 56.3399925, 130.830139)
+obj103.Anchored = true
+obj103.BrickColor = BrickColor.new("Dark stone grey")
+obj103.Friction = 0.30000001192093
+obj103.Shape = Enum.PartType.Block
+obj103.Parent = obj1
+
+-- 104 - Part
+obj104 = Instance.new("Part")
+obj104.CFrame = CFrame.new(Vector3.new(-237.406067, 49.8600044, -24.2520142)) * CFrame.Angles(-0, 0, -0)
+obj104.FormFactor = Enum.FormFactor.Custom
+obj104.TopSurface = Enum.SurfaceType.Smooth
+obj104.BottomSurface = Enum.SurfaceType.Smooth
+obj104.Size = Vector3.new(92.2399292, 99.7199936, 36.0401649)
+obj104.Anchored = true
+obj104.BrickColor = BrickColor.new("Dark stone grey")
+obj104.Friction = 0.30000001192093
+obj104.Shape = Enum.PartType.Block
+obj104.Parent = obj1
+
+-- 105 - Part
+obj105 = Instance.new("Part")
+obj105.CFrame = CFrame.new(Vector3.new(-104.424011, 275.356628, 526.278992)) * CFrame.Angles(-3.8880767760929e-07, -1.2249684333801, 1.4241710459828e-06)
+obj105.FormFactor = Enum.FormFactor.Custom
+obj105.TopSurface = Enum.SurfaceType.Smooth
+obj105.BottomSurface = Enum.SurfaceType.Smooth
+obj105.Size = Vector3.new(75.9899216, 15.0599995, 208.070114)
+obj105.Anchored = true
+obj105.BrickColor = BrickColor.new("Dark stone grey")
+obj105.Friction = 0.30000001192093
+obj105.Shape = Enum.PartType.Block
+obj105.Parent = obj1
+
+-- 106 - Part
+obj106 = Instance.new("Part")
+obj106.CFrame = CFrame.new(Vector3.new(41.2839966, 261.952759, 474.324036)) * CFrame.Angles(-1.3692020672806e-07, 0.58613306283951, 1.3386333819199e-07)
+obj106.FormFactor = Enum.FormFactor.Custom
+obj106.TopSurface = Enum.SurfaceType.Smooth
+obj106.BottomSurface = Enum.SurfaceType.Smooth
+obj106.Size = Vector3.new(138.469955, 42.1100006, 147.430099)
+obj106.Anchored = true
+obj106.BrickColor = BrickColor.new("Dark stone grey")
+obj106.Friction = 0.30000001192093
+obj106.Shape = Enum.PartType.Block
+obj106.Parent = obj1
+
+-- 107 - Part
+obj107 = Instance.new("Part")
+obj107.CFrame = CFrame.new(Vector3.new(41.1239624, 232.558334, 477.468018)) * CFrame.Angles(-1.3692020672806e-07, 0.58613300323486, 4.131641873073e-08)
+obj107.FormFactor = Enum.FormFactor.Custom
+obj107.TopSurface = Enum.SurfaceType.Smooth
+obj107.BottomSurface = Enum.SurfaceType.Smooth
+obj107.Size = Vector3.new(114.109955, 42.1100006, 132.900101)
+obj107.Anchored = true
+obj107.BrickColor = BrickColor.new("Dark stone grey")
+obj107.Friction = 0.30000001192093
+obj107.Shape = Enum.PartType.Block
+obj107.Parent = obj1
+
+-- 108 - Part
+obj108 = Instance.new("Part")
+obj108.CFrame = CFrame.new(Vector3.new(40.80896, 196.675262, 475.796021)) * CFrame.Angles(-1.3692020672806e-07, 0.58613300323486, 4.131641873073e-08)
+obj108.FormFactor = Enum.FormFactor.Custom
+obj108.TopSurface = Enum.SurfaceType.Smooth
+obj108.BottomSurface = Enum.SurfaceType.Smooth
+obj108.Size = Vector3.new(81.7399597, 81.7200089, 105.17009)
+obj108.Anchored = true
+obj108.BrickColor = BrickColor.new("Dark stone grey")
+obj108.Friction = 0.30000001192093
+obj108.Shape = Enum.PartType.Block
+obj108.Parent = obj1
+
+-- 109 - Part
+obj109 = Instance.new("Part")
+obj109.CFrame = CFrame.new(Vector3.new(45.414978, 135.258667, 460.650024)) * CFrame.Angles(-1.3692020672806e-07, 0.58613300323486, 4.131641873073e-08)
+obj109.FormFactor = Enum.FormFactor.Custom
+obj109.TopSurface = Enum.SurfaceType.Smooth
+obj109.BottomSurface = Enum.SurfaceType.Smooth
+obj109.Size = Vector3.new(49.1999626, 81.7200089, 41.2700806)
+obj109.Anchored = true
+obj109.BrickColor = BrickColor.new("Dark stone grey")
+obj109.Friction = 0.30000001192093
+obj109.Shape = Enum.PartType.Block
+obj109.Parent = obj1
+
+-- 110 - Part
+obj110 = Instance.new("Part")
+obj110.CFrame = CFrame.new(Vector3.new(89.5999603, 271.638641, 372.388977)) * CFrame.Angles(-9.6559494977555e-07, -0.32483783364296, 9.6281848982471e-07)
+obj110.FormFactor = Enum.FormFactor.Custom
+obj110.TopSurface = Enum.SurfaceType.Smooth
+obj110.BottomSurface = Enum.SurfaceType.Smooth
+obj110.Size = Vector3.new(75.9899216, 15.0599995, 208.070114)
+obj110.Anchored = true
+obj110.BrickColor = BrickColor.new("Dark stone grey")
+obj110.Friction = 0.30000001192093
+obj110.Shape = Enum.PartType.Block
+obj110.Parent = obj1
+
+-- 111 - Part
+obj111 = Instance.new("Part")
+obj111.CFrame = CFrame.new(Vector3.new(134.772949, 258.807831, 237.914001)) * CFrame.Angles(1.772128371158e-06, 1.2459582090378, -1.4667112964162e-06)
+obj111.FormFactor = Enum.FormFactor.Custom
+obj111.TopSurface = Enum.SurfaceType.Smooth
+obj111.BottomSurface = Enum.SurfaceType.Smooth
+obj111.Size = Vector3.new(138.469955, 42.1100006, 147.430099)
+obj111.Anchored = true
+obj111.BrickColor = BrickColor.new("Dark stone grey")
+obj111.Friction = 0.30000001192093
+obj111.Shape = Enum.PartType.Block
+obj111.Parent = obj1
+
+-- 112 - Part
+obj112 = Instance.new("Part")
+obj112.CFrame = CFrame.new(Vector3.new(132.657959, 231.172302, 236.183014)) * CFrame.Angles(1.7721281437844e-06, 1.2459578514099, -1.5592578392898e-06)
+obj112.FormFactor = Enum.FormFactor.Custom
+obj112.TopSurface = Enum.SurfaceType.Smooth
+obj112.BottomSurface = Enum.SurfaceType.Smooth
+obj112.Size = Vector3.new(114.109955, 42.1100006, 132.900101)
+obj112.Anchored = true
+obj112.BrickColor = BrickColor.new("Dark stone grey")
+obj112.Friction = 0.30000001192093
+obj112.Shape = Enum.PartType.Block
+obj112.Parent = obj1
+
+-- 113 - Part
+obj113 = Instance.new("Part")
+obj113.CFrame = CFrame.new(Vector3.new(140.124985, 206.324921, 236.153976)) * CFrame.Angles(1.7721281437844e-06, 1.2459578514099, -1.5592578392898e-06)
+obj113.FormFactor = Enum.FormFactor.Custom
+obj113.TopSurface = Enum.SurfaceType.Smooth
+obj113.BottomSurface = Enum.SurfaceType.Smooth
+obj113.Size = Vector3.new(81.7399597, 81.7200089, 105.17009)
+obj113.Anchored = true
+obj113.BrickColor = BrickColor.new("Dark stone grey")
+obj113.Friction = 0.30000001192093
+obj113.Shape = Enum.PartType.Block
+obj113.Parent = obj1
+
+-- 114 - Part
+obj114 = Instance.new("Part")
+obj114.CFrame = CFrame.new(Vector3.new(144.959961, 154.65834, 247.122009)) * CFrame.Angles(-2.0098158870496e-07, -0.32483839988708, -3.29333751381e-08)
+obj114.FormFactor = Enum.FormFactor.Custom
+obj114.TopSurface = Enum.SurfaceType.Smooth
+obj114.BottomSurface = Enum.SurfaceType.Smooth
+obj114.Size = Vector3.new(49.1999626, 81.7200089, 41.2700806)
+obj114.Anchored = true
+obj114.BrickColor = BrickColor.new("Dark stone grey")
+obj114.Friction = 0.30000001192093
+obj114.Shape = Enum.PartType.Block
+obj114.Parent = obj1
+
+-- 115 - Part
+obj115 = Instance.new("Part")
+obj115.CFrame = CFrame.new(Vector3.new(-61.4130249, 270.862732, 177.731018)) * CFrame.Angles(3.141589641571, -1.2029284238815, 3.1415903568268)
+obj115.FormFactor = Enum.FormFactor.Custom
+obj115.TopSurface = Enum.SurfaceType.Smooth
+obj115.BottomSurface = Enum.SurfaceType.Smooth
+obj115.Size = Vector3.new(75.9899216, 15.0599995, 273.980072)
+obj115.Anchored = true
+obj115.BrickColor = BrickColor.new("Dark stone grey")
+obj115.Friction = 0.30000001192093
+obj115.Shape = Enum.PartType.Block
+obj115.Parent = obj1
+
+-- 116 - Part
+obj116 = Instance.new("Part")
+obj116.CFrame = CFrame.new(Vector3.new(-507.072083, 264.757782, 238.731995)) * CFrame.Angles(-3.141592502594, -0.58613306283951, -3.141592502594)
+obj116.FormFactor = Enum.FormFactor.Custom
+obj116.TopSurface = Enum.SurfaceType.Smooth
+obj116.BottomSurface = Enum.SurfaceType.Smooth
+obj116.Size = Vector3.new(138.469955, 42.1100006, 147.430099)
+obj116.Anchored = true
+obj116.BrickColor = BrickColor.new("Dark stone grey")
+obj116.Friction = 0.30000001192093
+obj116.Shape = Enum.PartType.Block
+obj116.Parent = obj1
+
+-- 117 - Part
+obj117 = Instance.new("Part")
+obj117.CFrame = CFrame.new(Vector3.new(-506.913025, 235.371246, 235.588013)) * CFrame.Angles(-3.141592502594, -0.58613300323486, -3.141592502594)
+obj117.FormFactor = Enum.FormFactor.Custom
+obj117.TopSurface = Enum.SurfaceType.Smooth
+obj117.BottomSurface = Enum.SurfaceType.Smooth
+obj117.Size = Vector3.new(114.109955, 42.1100006, 132.900101)
+obj117.Anchored = true
+obj117.BrickColor = BrickColor.new("Dark stone grey")
+obj117.Friction = 0.30000001192093
+obj117.Shape = Enum.PartType.Block
+obj117.Parent = obj1
+
+-- 118 - Part
+obj118 = Instance.new("Part")
+obj118.CFrame = CFrame.new(Vector3.new(-506.598083, 199.485153, 237.26001)) * CFrame.Angles(-3.141592502594, -0.58613300323486, -3.141592502594)
+obj118.FormFactor = Enum.FormFactor.Custom
+obj118.TopSurface = Enum.SurfaceType.Smooth
+obj118.BottomSurface = Enum.SurfaceType.Smooth
+obj118.Size = Vector3.new(81.7399597, 81.7200089, 105.17009)
+obj118.Anchored = true
+obj118.BrickColor = BrickColor.new("Dark stone grey")
+obj118.Friction = 0.30000001192093
+obj118.Shape = Enum.PartType.Block
+obj118.Parent = obj1
+
+-- 119 - Part
+obj119 = Instance.new("Part")
+obj119.CFrame = CFrame.new(Vector3.new(-555.389099, 274.444641, 340.666992)) * CFrame.Angles(-3.1415917873383, 0.32483783364296, -3.1415917873383)
+obj119.FormFactor = Enum.FormFactor.Custom
+obj119.TopSurface = Enum.SurfaceType.Smooth
+obj119.BottomSurface = Enum.SurfaceType.Smooth
+obj119.Size = Vector3.new(75.9899216, 15.0599995, 208.070114)
+obj119.Anchored = true
+obj119.BrickColor = BrickColor.new("Dark stone grey")
+obj119.Friction = 0.30000001192093
+obj119.Shape = Enum.PartType.Block
+obj119.Parent = obj1
+
+-- 120 - Part
+obj120 = Instance.new("Part")
+obj120.CFrame = CFrame.new(Vector3.new(-511.204041, 138.062576, 252.406006)) * CFrame.Angles(-3.141592502594, -0.58613300323486, -3.141592502594)
+obj120.FormFactor = Enum.FormFactor.Custom
+obj120.TopSurface = Enum.SurfaceType.Smooth
+obj120.BottomSurface = Enum.SurfaceType.Smooth
+obj120.Size = Vector3.new(49.1999626, 81.7200089, 41.2700806)
+obj120.Anchored = true
+obj120.BrickColor = BrickColor.new("Dark stone grey")
+obj120.Friction = 0.30000001192093
+obj120.Shape = Enum.PartType.Block
+obj120.Parent = obj1
+
+-- 121 - Part
+obj121 = Instance.new("Part")
+obj121.CFrame = CFrame.new(Vector3.new(-600.562073, 261.620758, 475.142029)) * CFrame.Angles(3.1415908336639, -1.2459582090378, 3.1415910720825)
+obj121.FormFactor = Enum.FormFactor.Custom
+obj121.TopSurface = Enum.SurfaceType.Smooth
+obj121.BottomSurface = Enum.SurfaceType.Smooth
+obj121.Size = Vector3.new(138.469955, 42.1100006, 147.430099)
+obj121.Anchored = true
+obj121.BrickColor = BrickColor.new("Dark stone grey")
+obj121.Friction = 0.30000001192093
+obj121.Shape = Enum.PartType.Block
+obj121.Parent = obj1
+
+-- 122 - Part
+obj122 = Instance.new("Part")
+obj122.CFrame = CFrame.new(Vector3.new(-598.446106, 233.976257, 476.872986)) * CFrame.Angles(3.1415908336639, -1.2459578514099, 3.1415910720825)
+obj122.FormFactor = Enum.FormFactor.Custom
+obj122.TopSurface = Enum.SurfaceType.Smooth
+obj122.BottomSurface = Enum.SurfaceType.Smooth
+obj122.Size = Vector3.new(114.109955, 42.1100006, 132.900101)
+obj122.Anchored = true
+obj122.BrickColor = BrickColor.new("Dark stone grey")
+obj122.Friction = 0.30000001192093
+obj122.Shape = Enum.PartType.Block
+obj122.Parent = obj1
+
+-- 123 - Part
+obj123 = Instance.new("Part")
+obj123.CFrame = CFrame.new(Vector3.new(-605.914001, 209.139908, 476.902039)) * CFrame.Angles(3.1415908336639, -1.2459578514099, 3.1415910720825)
+obj123.FormFactor = Enum.FormFactor.Custom
+obj123.TopSurface = Enum.SurfaceType.Smooth
+obj123.BottomSurface = Enum.SurfaceType.Smooth
+obj123.Size = Vector3.new(81.7399597, 81.7200089, 105.17009)
+obj123.Anchored = true
+obj123.BrickColor = BrickColor.new("Dark stone grey")
+obj123.Friction = 0.30000001192093
+obj123.Shape = Enum.PartType.Block
+obj123.Parent = obj1
+
+-- 124 - Part
+obj124 = Instance.new("Part")
+obj124.CFrame = CFrame.new(Vector3.new(-610.749084, 157.469193, 465.934021)) * CFrame.Angles(-3.141592502594, 0.32483839988708, 3.141592502594)
+obj124.FormFactor = Enum.FormFactor.Custom
+obj124.TopSurface = Enum.SurfaceType.Smooth
+obj124.BottomSurface = Enum.SurfaceType.Smooth
+obj124.Size = Vector3.new(49.1999626, 81.7200089, 41.2700806)
+obj124.Anchored = true
+obj124.BrickColor = BrickColor.new("Dark stone grey")
+obj124.Friction = 0.30000001192093
+obj124.Shape = Enum.PartType.Block
+obj124.Parent = obj1
+
+-- 125 - Part
+obj125 = Instance.new("Part")
+obj125.CFrame = CFrame.new(Vector3.new(-404.376038, 273.673676, 535.325012)) * CFrame.Angles(2.9066407023493e-06, 1.2029284238815, -2.1853447833564e-06)
+obj125.FormFactor = Enum.FormFactor.Custom
+obj125.TopSurface = Enum.SurfaceType.Smooth
+obj125.BottomSurface = Enum.SurfaceType.Smooth
+obj125.Size = Vector3.new(75.9899216, 15.0599995, 273.980072)
+obj125.Anchored = true
+obj125.BrickColor = BrickColor.new("Dark stone grey")
+obj125.Friction = 0.30000001192093
+obj125.Shape = Enum.PartType.Block
+obj125.Parent = obj1
+
+-- 126 - Part
+obj126 = Instance.new("Part")
+obj126.CFrame = CFrame.new(Vector3.new(-238.473083, 277.341736, 262.317993)) * CFrame.Angles(1.6768112182617, -1.5690357685089, 1.7027742862701)
+obj126.FormFactor = Enum.FormFactor.Custom
+obj126.TopSurface = Enum.SurfaceType.Smooth
+obj126.BottomSurface = Enum.SurfaceType.Smooth
+obj126.Size = Vector3.new(30.8799267, 8.77999973, 67.2100449)
+obj126.Anchored = true
+obj126.BrickColor = BrickColor.new("Dark stone grey")
+obj126.Friction = 0.30000001192093
+obj126.Shape = Enum.PartType.Block
+obj126.Parent = obj1
+
+-- 127 - Part
+obj127 = Instance.new("Part")
+obj127.CFrame = CFrame.new(Vector3.new(-238.473083, 276.011688, 270.498016)) * CFrame.Angles(1.6768112182617, -1.5690357685089, 1.7027742862701)
+obj127.FormFactor = Enum.FormFactor.Custom
+obj127.TopSurface = Enum.SurfaceType.Smooth
+obj127.BottomSurface = Enum.SurfaceType.Smooth
+obj127.Size = Vector3.new(30.8799267, 8.77999973, 67.2100449)
+obj127.Anchored = true
+obj127.BrickColor = BrickColor.new("Dark stone grey")
+obj127.Friction = 0.30000001192093
+obj127.Shape = Enum.PartType.Block
+obj127.Parent = obj1
+
+-- 128 - Part
+obj128 = Instance.new("Part")
+obj128.CFrame = CFrame.new(Vector3.new(-238.473083, 274.913788, 276.738007)) * CFrame.Angles(1.6768112182617, -1.5690357685089, 1.7027742862701)
+obj128.FormFactor = Enum.FormFactor.Custom
+obj128.TopSurface = Enum.SurfaceType.Smooth
+obj128.BottomSurface = Enum.SurfaceType.Smooth
+obj128.Size = Vector3.new(30.8799267, 8.77999973, 67.2100449)
+obj128.Anchored = true
+obj128.BrickColor = BrickColor.new("Dark stone grey")
+obj128.Friction = 0.30000001192093
+obj128.Shape = Enum.PartType.Block
+obj128.Parent = obj1
+
+-- 129 - Part
+obj129 = Instance.new("Part")
+obj129.CFrame = CFrame.new(Vector3.new(-250.466003, 340.52066, 71.9559937)) * CFrame.Angles(-0, 0, -0)
+obj129.FormFactor = Enum.FormFactor.Custom
+obj129.Size = Vector3.new(38.9000015, 36.8699951, 0.200000003)
+obj129.Anchored = true
+obj129.BrickColor = BrickColor.new("Really black")
+obj129.Friction = 0.30000001192093
+obj129.Shape = Enum.PartType.Block
+obj129.Parent = obj1
+
+-- 130 - Mesh
+obj130 = Instance.new("SpecialMesh")
+obj130.MeshType = Enum.MeshType.FileMesh
+obj130.Scale = Vector3.new(50, 50, 1)
+obj130.MeshId = "http://www.roblox.com/asset/?id=3270017"
+obj130.Parent = obj129
+
+-- 131 - Part
+obj131 = Instance.new("Part")
+obj131.CFrame = CFrame.new(Vector3.new(-250.466003, 340.649719, 71.9559937)) * CFrame.Angles(-0, 0, -0)
+obj131.FormFactor = Enum.FormFactor.Custom
+obj131.Size = Vector3.new(38.9000015, 36.8699951, 0.200000003)
+obj131.Anchored = true
+obj131.BrickColor = BrickColor.new("Really black")
+obj131.Friction = 0.30000001192093
+obj131.Shape = Enum.PartType.Block
+obj131.Parent = obj1
+
+-- 132 - Mesh
+obj132 = Instance.new("SpecialMesh")
+obj132.MeshType = Enum.MeshType.FileMesh
+obj132.Scale = Vector3.new(20, 50, 1)
+obj132.MeshId = "http://www.roblox.com/asset/?id=3270017"
+obj132.Parent = obj131
+
+-- 133 - Part
+obj133 = Instance.new("Part")
+obj133.CFrame = CFrame.new(Vector3.new(-250.466003, 340.839691, 71.9559937)) * CFrame.Angles(2.6480572046239e-07, 1.1362178611307e-06, -1.5818370580673)
+obj133.FormFactor = Enum.FormFactor.Custom
+obj133.Size = Vector3.new(38.9000015, 36.8699951, 0.200000003)
+obj133.Anchored = true
+obj133.BrickColor = BrickColor.new("Really black")
+obj133.Friction = 0.30000001192093
+obj133.Shape = Enum.PartType.Block
+obj133.Parent = obj1
+
+-- 134 - Mesh
+obj134 = Instance.new("SpecialMesh")
+obj134.MeshType = Enum.MeshType.FileMesh
+obj134.Scale = Vector3.new(20, 50, 1)
+obj134.MeshId = "http://www.roblox.com/asset/?id=3270017"
+obj134.Parent = obj133
+
+-- 135 - Part
+obj135 = Instance.new("Part")
+obj135.CFrame = CFrame.new(Vector3.new(-250.771057, 341.319641, 72.1560059)) * CFrame.Angles(-0, 0, -0)
+obj135.FormFactor = Enum.FormFactor.Custom
+obj135.Size = Vector3.new(18.8500042, 19.3700008, 0.200000003)
+obj135.Anchored = true
+obj135.BrickColor = BrickColor.new("Lavender")
+obj135.Friction = 0.30000001192093
+obj135.Shape = Enum.PartType.Block
+obj135.Parent = obj1
+
+-- 136 - Mesh
+obj136 = Instance.new("SpecialMesh")
+obj136.MeshType = Enum.MeshType.FileMesh
+obj136.Scale = Vector3.new(4, 30, 1)
+obj136.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj136.Parent = obj135
+
+-- 137 - Part
+obj137 = Instance.new("Part")
+obj137.CFrame = CFrame.new(Vector3.new(-250.771057, 341.39975, 72.1560059)) * CFrame.Angles(4.4487674699667e-07, -7.5663098186851e-07, 1.5590703487396)
+obj137.FormFactor = Enum.FormFactor.Custom
+obj137.Size = Vector3.new(18.8500042, 19.3700008, 0.200000003)
+obj137.Anchored = true
+obj137.BrickColor = BrickColor.new("Lavender")
+obj137.Friction = 0.30000001192093
+obj137.Shape = Enum.PartType.Block
+obj137.Parent = obj1
+
+-- 138 - Mesh
+obj138 = Instance.new("SpecialMesh")
+obj138.MeshType = Enum.MeshType.FileMesh
+obj138.Scale = Vector3.new(4, 30, 1)
+obj138.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj138.Parent = obj137
+
+-- 139 - Part
+obj139 = Instance.new("Part")
+obj139.CFrame = CFrame.new(Vector3.new(-250.771057, 341.407745, 72.1560059)) * CFrame.Angles(-0, 0, -0.76960152387619)
+obj139.FormFactor = Enum.FormFactor.Custom
+obj139.Size = Vector3.new(18.8500042, 19.3700008, 0.200000003)
+obj139.Anchored = true
+obj139.BrickColor = BrickColor.new("Lavender")
+obj139.Friction = 0.30000001192093
+obj139.Shape = Enum.PartType.Block
+obj139.Parent = obj1
+
+-- 140 - Mesh
+obj140 = Instance.new("SpecialMesh")
+obj140.MeshType = Enum.MeshType.FileMesh
+obj140.Scale = Vector3.new(4, 30, 1)
+obj140.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj140.Parent = obj139
+
+-- 141 - Part
+obj141 = Instance.new("Part")
+obj141.CFrame = CFrame.new(Vector3.new(-250.771057, 341.188721, 72.1560059)) * CFrame.Angles(-0, 0, 0.73275244235992)
+obj141.FormFactor = Enum.FormFactor.Custom
+obj141.Size = Vector3.new(18.8500042, 19.3700008, 0.200000003)
+obj141.Anchored = true
+obj141.BrickColor = BrickColor.new("Lavender")
+obj141.Friction = 0.30000001192093
+obj141.Shape = Enum.PartType.Block
+obj141.Parent = obj1
+
+-- 142 - Mesh
+obj142 = Instance.new("SpecialMesh")
+obj142.MeshType = Enum.MeshType.FileMesh
+obj142.Scale = Vector3.new(4, 30, 1)
+obj142.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj142.Parent = obj141
+
+-- 143 - Part
+obj143 = Instance.new("Part")
+obj143.CFrame = CFrame.new(Vector3.new(-250.771057, 341.526672, 72.1560059)) * CFrame.Angles(-0, 0, 0.0029889610596001)
+obj143.FormFactor = Enum.FormFactor.Custom
+obj143.Size = Vector3.new(18.8500042, 19.3700008, 0.200000003)
+obj143.Anchored = true
+obj143.BrickColor = BrickColor.new("Lavender")
+obj143.Friction = 0.30000001192093
+obj143.Shape = Enum.PartType.Block
+obj143.Parent = obj1
+
+-- 144 - Mesh
+obj144 = Instance.new("SpecialMesh")
+obj144.MeshType = Enum.MeshType.FileMesh
+obj144.Scale = Vector3.new(4, 4, 10)
+obj144.MeshId = "http://www.roblox.com/Asset/?id=9756362"
+obj144.Parent = obj143
+
+-- 145 - SpawnPoint1
+obj145 = Instance.new("Part")
+obj145.CFrame = CFrame.new(Vector3.new(-249.942078, 290.888641, 575.796021)) * CFrame.Angles(-3.0190904140472, -1.5701982975006, -3.078665971756)
+obj145.FormFactor = Enum.FormFactor.Symmetric
+obj145.CanCollide = false
+obj145.Transparency = 1
+obj145.Size = Vector3.new(2, 1, 2)
+obj145.Anchored = true
+obj145.Friction = 0.30000001192093
+obj145.Shape = Enum.PartType.Block
+obj145.Name = "SpawnPoint1"
+obj145.Parent = obj1
+
+-- 146 - SpawnPoint2
+obj146 = Instance.new("Part")
+obj146.CFrame = CFrame.new(Vector3.new(26.2069702, 291.888641, 480.415985)) * CFrame.Angles(-3.0190904140472, -1.5701982975006, -3.078665971756)
+obj146.FormFactor = Enum.FormFactor.Symmetric
+obj146.CanCollide = false
+obj146.Transparency = 1
+obj146.Size = Vector3.new(2, 1, 2)
+obj146.Anchored = true
+obj146.Friction = 0.30000001192093
+obj146.Shape = Enum.PartType.Block
+obj146.Name = "SpawnPoint2"
+obj146.Parent = obj1
+
+-- 147 - SpawnPoint3
+obj147 = Instance.new("Part")
+obj147.CFrame = CFrame.new(Vector3.new(127.69397, 291.272705, 239.489014)) * CFrame.Angles(-3.1415908336639, -1.2459572553635, -3.1415908336639)
+obj147.FormFactor = Enum.FormFactor.Symmetric
+obj147.CanCollide = false
+obj147.Transparency = 1
+obj147.Size = Vector3.new(2, 1, 2)
+obj147.Anchored = true
+obj147.Friction = 0.30000001192093
+obj147.Shape = Enum.PartType.Block
+obj147.Name = "SpawnPoint3"
+obj147.Parent = obj1
+
+-- 148 - SpawnPoint4
+obj148 = Instance.new("Part")
+obj148.CFrame = CFrame.new(Vector3.new(-596.269104, 298.837708, 478.89502)) * CFrame.Angles(-3.1415908336639, -1.2459572553635, -3.1415908336639)
+obj148.FormFactor = Enum.FormFactor.Symmetric
+obj148.CanCollide = false
+obj148.Transparency = 1
+obj148.Size = Vector3.new(2, 1, 2)
+obj148.Anchored = true
+obj148.Friction = 0.30000001192093
+obj148.Shape = Enum.PartType.Block
+obj148.Name = "SpawnPoint4"
+obj148.Parent = obj1
+
+-- 149 - SpawnPoint5
+obj149 = Instance.new("Part")
+obj149.CFrame = CFrame.new(Vector3.new(-491.809021, 295.90564, 237.725006)) * CFrame.Angles(-3.1415908336639, -1.2459572553635, -3.1415908336639)
+obj149.FormFactor = Enum.FormFactor.Symmetric
+obj149.CanCollide = false
+obj149.Transparency = 1
+obj149.Size = Vector3.new(2, 1, 2)
+obj149.Anchored = true
+obj149.Friction = 0.30000001192093
+obj149.Shape = Enum.PartType.Block
+obj149.Name = "SpawnPoint5"
+obj149.Parent = obj1
+
+-- 150 - SpawnPoint6
+obj150 = Instance.new("Part")
+obj150.CFrame = CFrame.new(Vector3.new(-245.230042, 290.605896, 178.120056)) * CFrame.Angles(-1.6703406572342, -1.5701982975006, -1.4687744379044)
+obj150.FormFactor = Enum.FormFactor.Symmetric
+obj150.CanCollide = false
+obj150.Transparency = 1
+obj150.Size = Vector3.new(2, 1, 2)
+obj150.Anchored = true
+obj150.Friction = 0.30000001192093
+obj150.Shape = Enum.PartType.Block
+obj150.Name = "SpawnPoint6"
+obj150.Parent = obj1
+
+-- 151 - SpawnPoint7
+obj151 = Instance.new("Part")
+obj151.CFrame = CFrame.new(Vector3.new(-269.522034, 290.432709, 558.995056)) * CFrame.Angles(-1.6703406572342, -1.5701982975006, -1.4687744379044)
+obj151.FormFactor = Enum.FormFactor.Symmetric
+obj151.CanCollide = false
+obj151.Transparency = 1
+obj151.Size = Vector3.new(2, 1, 2)
+obj151.Anchored = true
+obj151.Friction = 0.30000001192093
+obj151.Shape = Enum.PartType.Block
+obj151.Name = "SpawnPoint7"
+obj151.Parent = obj1
+
+-- 152 - SpawnPoint8
+obj152 = Instance.new("Part")
+obj152.CFrame = CFrame.new(Vector3.new(-228.322083, 291.432648, 568.195068)) * CFrame.Angles(-1.6703406572342, -1.5701982975006, -1.4687744379044)
+obj152.FormFactor = Enum.FormFactor.Symmetric
+obj152.CanCollide = false
+obj152.Transparency = 1
+obj152.Size = Vector3.new(2, 1, 2)
+obj152.Anchored = true
+obj152.Friction = 0.30000001192093
+obj152.Shape = Enum.PartType.Block
+obj152.Name = "SpawnPoint8"
+obj152.Parent = obj1
+
+-- 153 - SpawnPoint9
+obj153 = Instance.new("Part")
+obj153.CFrame = CFrame.new(Vector3.new(-255.921936, 292.432648, 538.995056)) * CFrame.Angles(-1.6703406572342, -1.5701982975006, -1.4687744379044)
+obj153.FormFactor = Enum.FormFactor.Symmetric
+obj153.CanCollide = false
+obj153.Transparency = 1
+obj153.Size = Vector3.new(2, 1, 2)
+obj153.Anchored = true
+obj153.Friction = 0.30000001192093
+obj153.Shape = Enum.PartType.Block
+obj153.Name = "SpawnPoint9"
+obj153.Parent = obj1
+
+-- 154 - SpawnPoint10
+obj154 = Instance.new("Part")
+obj154.CFrame = CFrame.new(Vector3.new(-237.922058, 293.432648, 538.994995)) * CFrame.Angles(-1.6703406572342, -1.5701982975006, -1.4687744379044)
+obj154.FormFactor = Enum.FormFactor.Symmetric
+obj154.CanCollide = false
+obj154.Transparency = 1
+obj154.Size = Vector3.new(2, 1, 2)
+obj154.Anchored = true
+obj154.Friction = 0.30000001192093
+obj154.Shape = Enum.PartType.Block
+obj154.Name = "SpawnPoint10"
+obj154.Parent = obj1
+
+-- 155 - Photo
+obj155 = Instance.new("IntValue")
+obj155.Name = "Photo"
+obj155.Parent = obj1
+
+-- 156 - Skytype
+obj156 = Instance.new("StringValue")
+obj156.Name = "Skytype"
+obj156.Parent = obj1
+
+-- 157 - Creator
+obj157 = Instance.new("StringValue")
+obj157.Name = "Creator"
+obj157.Parent = obj1
+
+-- 158 - HealthPickup
+obj158 = Instance.new("Model")
+obj158.Name = "HealthPickup"
+obj158.Parent = obj1
+
+-- 159 - Bottle
+obj159 = Instance.new("Part")
+obj159.CFrame = CFrame.new(Vector3.new(37.4774475, 289.668274, 483.700195)) * CFrame.Angles(3.1415927410126, -2.9802322387695e-08, 3.1415927410126)
+obj159.FormFactor = Enum.FormFactor.Custom
+obj159.CanCollide = false
+obj159.Transparency = 0.00099998712539673
+obj159.TopSurface = Enum.SurfaceType.Smooth
+obj159.BottomSurface = Enum.SurfaceType.Smooth
+obj159.Size = Vector3.new(2, 2, 2)
+obj159.BrickColor = BrickColor.new("Bright red")
+obj159.Friction = 0.30000001192093
+obj159.Shape = Enum.PartType.Block
+obj159.Name = "Bottle"
+obj159.Parent = obj158
+
+-- 160 - Mesh
+obj160 = Instance.new("SpecialMesh")
+obj160.MeshType = Enum.MeshType.FileMesh
+obj160.Scale = Vector3.new(2.75, 2.75, 2.75)
+obj160.MeshId = "http://www.roblox.com/asset/?id=11409474"
+obj160.Parent = obj159
+
+-- 161 - HealthPickup
+obj161 = Instance.new("Model")
+obj161.Name = "HealthPickup"
+obj161.Parent = obj1
+
+-- 162 - Bottle
+obj162 = Instance.new("Part")
+obj162.CFrame = CFrame.new(Vector3.new(143.39743, 287.76828, 235.110168)) * CFrame.Angles(3.1415927410126, -2.9802322387695e-08, 3.1415927410126)
+obj162.FormFactor = Enum.FormFactor.Custom
+obj162.CanCollide = false
+obj162.Transparency = 0.00099998712539673
+obj162.TopSurface = Enum.SurfaceType.Smooth
+obj162.BottomSurface = Enum.SurfaceType.Smooth
+obj162.Size = Vector3.new(2, 2, 2)
+obj162.BrickColor = BrickColor.new("Bright red")
+obj162.Friction = 0.30000001192093
+obj162.Shape = Enum.PartType.Block
+obj162.Name = "Bottle"
+obj162.Parent = obj161
+
+-- 163 - Mesh
+obj163 = Instance.new("SpecialMesh")
+obj163.MeshType = Enum.MeshType.FileMesh
+obj163.Scale = Vector3.new(2.75, 2.75, 2.75)
+obj163.MeshId = "http://www.roblox.com/asset/?id=11409474"
+obj163.Parent = obj162
+
+-- 164 - HealthPickup
+obj164 = Instance.new("Model")
+obj164.Name = "HealthPickup"
+obj164.Parent = obj1
+
+-- 165 - Bottle
+obj165 = Instance.new("Part")
+obj165.CFrame = CFrame.new(Vector3.new(-509.432617, 287.76828, 225.450134)) * CFrame.Angles(3.1415927410126, -2.9802322387695e-08, 3.1415927410126)
+obj165.FormFactor = Enum.FormFactor.Custom
+obj165.CanCollide = false
+obj165.Transparency = 0.00099998712539673
+obj165.TopSurface = Enum.SurfaceType.Smooth
+obj165.BottomSurface = Enum.SurfaceType.Smooth
+obj165.Size = Vector3.new(2, 2, 2)
+obj165.BrickColor = BrickColor.new("Bright red")
+obj165.Friction = 0.30000001192093
+obj165.Shape = Enum.PartType.Block
+obj165.Name = "Bottle"
+obj165.Parent = obj164
+
+-- 166 - Mesh
+obj166 = Instance.new("SpecialMesh")
+obj166.MeshType = Enum.MeshType.FileMesh
+obj166.Scale = Vector3.new(2.75, 2.75, 2.75)
+obj166.MeshId = "http://www.roblox.com/asset/?id=11409474"
+obj166.Parent = obj165
+
+-- 167 - HealthPickup
+obj167 = Instance.new("Model")
+obj167.Name = "HealthPickup"
+obj167.Parent = obj1
+
+-- 168 - Bottle
+obj168 = Instance.new("Part")
+obj168.CFrame = CFrame.new(Vector3.new(-583.79248, 287.76828, 442.830109)) * CFrame.Angles(3.1415927410126, -2.9802322387695e-08, 3.1415927410126)
+obj168.FormFactor = Enum.FormFactor.Custom
+obj168.CanCollide = false
+obj168.Transparency = 0.00099998712539673
+obj168.TopSurface = Enum.SurfaceType.Smooth
+obj168.BottomSurface = Enum.SurfaceType.Smooth
+obj168.Size = Vector3.new(2, 2, 2)
+obj168.BrickColor = BrickColor.new("Bright red")
+obj168.Friction = 0.30000001192093
+obj168.Shape = Enum.PartType.Block
+obj168.Name = "Bottle"
+obj168.Parent = obj167
+
+-- 169 - Mesh
+obj169 = Instance.new("SpecialMesh")
+obj169.MeshType = Enum.MeshType.FileMesh
+obj169.Scale = Vector3.new(2.75, 2.75, 2.75)
+obj169.MeshId = "http://www.roblox.com/asset/?id=11409474"
+obj169.Parent = obj168
+
+-- 170 - HealthPickup
+obj170 = Instance.new("Model")
+obj170.Name = "HealthPickup"
+obj170.Parent = obj1
+
+-- 171 - Bottle
+obj171 = Instance.new("Part")
+obj171.CFrame = CFrame.new(Vector3.new(-244.602722, 287.76828, 178.530212)) * CFrame.Angles(3.1415927410126, -2.9802322387695e-08, 3.1415927410126)
+obj171.FormFactor = Enum.FormFactor.Custom
+obj171.CanCollide = false
+obj171.Transparency = 0.00099998712539673
+obj171.TopSurface = Enum.SurfaceType.Smooth
+obj171.BottomSurface = Enum.SurfaceType.Smooth
+obj171.Size = Vector3.new(2, 2, 2)
+obj171.BrickColor = BrickColor.new("Bright red")
+obj171.Friction = 0.30000001192093
+obj171.Shape = Enum.PartType.Block
+obj171.Name = "Bottle"
+obj171.Parent = obj170
+
+-- 172 - Mesh
+obj172 = Instance.new("SpecialMesh")
+obj172.MeshType = Enum.MeshType.FileMesh
+obj172.Scale = Vector3.new(2.75, 2.75, 2.75)
+obj172.MeshId = "http://www.roblox.com/asset/?id=11409474"
+obj172.Parent = obj171
+
+
+obj1:MakeJoints()
